@@ -1,4 +1,4 @@
-# Flutter Dart
+# Flutter
 
 Material didático para desenvolvimento mobile
 
@@ -7,7 +7,7 @@ Material didático para desenvolvimento mobile
   - Configuração do Ambiente
   - Instalação do Flutter SDK e configuração do IDE (Visual Studio Code ou Android Studio).
 - **Construindo seu Primeiro App:**
-  - Criar um aplicativo simples (ex: lista de tarefas).
+  - Criar um aplicativo simples.
 - **Widgets Básicos:**
   - Estrutura básica de um aplicativo Flutter.
   - Widgets comuns: Text, Row, Column, Container, Image.
