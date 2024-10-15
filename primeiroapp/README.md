@@ -1,6 +1,4 @@
-Claro! Vamos explorar a estrutura básica de um aplicativo Flutter em mais detalhes.
-
-### Estrutura do Projeto Flutter
+# Estrutura do Projeto Flutter
 
 Quando você cria um novo aplicativo Flutter, você obtém uma estrutura de diretórios organizada. Aqui está um exemplo típico:
 
