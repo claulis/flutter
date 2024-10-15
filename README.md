@@ -6,8 +6,10 @@ Material didático para desenvolvimento mobile
 - **Introdução ao Flutter:**
   - Configuração do Ambiente
   - Instalação do Flutter SDK e configuração do IDE (Visual Studio Code ou Android Studio).
-- **Construindo seu Primeiro App:**
-  - Criar um aplicativo simples.
+- **Construindo os primeiros aplicativos:**
+  - Primerio app (olá mundo) [primeiroapp](https://github.com/claulis/flutter/tree/main/primeiroapp)
+  - Segundo app (Formulário básico) [segundoapp](https://github.com/claulis/flutter/tree/main/segundoapp)
+  - Terceiro app (Formulário básico usando duas páginas) [segundoapp](https://github.com/claulis/flutter/tree/main/terceiroapp)
 - **Widgets Básicos:**
   - Estrutura básica de um aplicativo Flutter.
   - Widgets comuns: Text, Row, Column, Container, Image.
