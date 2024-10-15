@@ -206,6 +206,5 @@ class _HomePageState extends State<HomePage> {
 ```
 - **Fechamento de widgets**: Aqui, os widgets `Column`, `Padding`, `Scaffold` e `MaterialApp` são fechados, completando a definição da interface do aplicativo.
 
-### Resumo
 
 
