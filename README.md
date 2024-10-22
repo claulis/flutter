@@ -11,8 +11,8 @@ Material didático para desenvolvimento mobile
   - Segundo app (Formulário básico) [segundoapp](https://github.com/claulis/flutter/tree/main/segundoapp)
   - Terceiro app (Formulário básico usando duas páginas) [segundoapp](https://github.com/claulis/flutter/tree/main/terceiroapp)
 - **Widgets Básicos:**
-  - Estrutura básica de um aplicativo Flutter.
-  - Widgets comuns: Text, Row, Column, Container, Image.
+  - Stateless Widgets.
+  - Stateful Widgets.
 - **Layouts e Estilização:**
   - Criando layouts responsivos com Flexbox.
   - Aplicando estilos e temas.
