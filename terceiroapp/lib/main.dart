@@ -10,7 +10,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Saudação',
+      title: 'Cadatsro Usuário',
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
@@ -21,12 +21,11 @@ class MyApp extends StatelessWidget {
 
 class HomePage extends StatelessWidget {
   const HomePage({super.key});
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Formulário'),
+        title: const Text('Formulário de cadastro'),
       ),
       body: const FormPage(),
     );
@@ -43,22 +42,22 @@ class FormPage extends StatefulWidget {
 
 class _FormPageState extends State<FormPage> {
   final TextEditingController _nomeController = TextEditingController();
-  final TextEditingController _idadeController = TextEditingController();
+  final TextEditingController _emailController = TextEditingController();
 
   void _enviarDados(BuildContext context) {
     String nome = _nomeController.text;
-    int? idade = int.tryParse(_idadeController.text);
+    String email = _emailController.text;
 
-    if (idade != null) {
+    if (email.isNotEmpty) {
       Navigator.push(
         context,
         MaterialPageRoute(
-          builder: (context) => ResultPage(nome: nome, idade: idade),
+          builder: (context) => ResultPage(nome: nome, email: email),
         ),
       );
     } else {
       ScaffoldMessenger.of(context).showSnackBar(
-        const SnackBar(content: Text('Por favor, insira uma idade válida.')),
+        const SnackBar(content: Text('Por favor, insira um email.')),
       );
     }
   }
@@ -74,9 +73,8 @@ class _FormPageState extends State<FormPage> {
             decoration: const InputDecoration(labelText: 'Nome'),
           ),
           TextField(
-            controller: _idadeController,
-            decoration: const InputDecoration(labelText: 'Idade'),
-            keyboardType: TextInputType.number,
+            controller: _emailController,
+            decoration: const InputDecoration(labelText: 'E-mail'),            
           ),
           const SizedBox(height: 20),
           ElevatedButton(
@@ -91,18 +89,17 @@ class _FormPageState extends State<FormPage> {
 
 class ResultPage extends StatelessWidget {
   final String nome;
-  final int idade;
+  final String email;
 
-  const ResultPage({super.key, required this.nome, required this.idade});
+  const ResultPage({super.key, required this.nome, required this.email});
 
   @override
   Widget build(BuildContext context) {
-    String mensagem =
-        'Olá, $nome! Sua idade é $idade. ${idade >= 18 ? 'Você é maior de idade.' : 'Você é menor de idade.'}';
+    String mensagem = 'Olá, $nome! Seu email é $email';
 
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Resultado'),
+        title: const Text('Inforamções do cadastro'),
       ),
       body: Center(
         child: Column(
