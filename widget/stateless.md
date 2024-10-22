@@ -63,6 +63,7 @@ que não mantêm estado e são utilizados para construir interfaces de usuário 
      body: Center(child: Text('Corpo da Página')),
    )
    ```
+   [Aqui](https://github.com/claulis/flutter/blob/main/widget/scaffold.md) para mais informações sobre Scaffold
 
 8. **AppBar**
    - Uma barra de aplicativos que pode incluir título, ícones e ações.
