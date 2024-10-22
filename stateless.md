@@ -165,10 +165,10 @@ class MyApp extends StatelessWidget {
       title: 'Exemplo de Stateless Widget',
       home: Scaffold(
         appBar: AppBar(
-          title: Text('Meu Primeiro App'),
+          title: Text('Este é um App'),
         ),
         body: Center(
-          child: GreetingWidget(), // Chama o Stateless Widget
+          child: BemVindoWidget(), // Chama o Stateless Widget
         ),
       ),
     );
@@ -176,7 +176,7 @@ class MyApp extends StatelessWidget {
 }
 
 // Definindo o Stateless Widget
-class GreetingWidget extends StatelessWidget {
+class BemVindoWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Text(
