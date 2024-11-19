@@ -195,16 +195,6 @@ class MyApp extends StatelessWidget {
 
 ---
 
-### Conclusão
-
-Cada uma dessas estruturas desempenha um papel essencial na construção de interfaces no Flutter:
-- `Column` e `Row` são ideais para layouts verticais e horizontais.
-- `Stack` é ótimo para sobreposição de widgets.
-- `Container` oferece personalização e estilização.
-
-### Atividade Prática
-
-
 ### Referências
 
 - [Documentação Flutter para layouts](https://docs.flutter.dev/development/ui/layout)
