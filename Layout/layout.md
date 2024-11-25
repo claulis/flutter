@@ -84,60 +84,13 @@ class MyApp extends StatelessWidget {
 > **Explicação**: Neste exemplo, três ícones são exibidos em uma linha e espaçados uniformemente (`mainAxisAlignment: spaceAround`). O `Row` permite flexibilidade para organizar widgets horizontalmente.
 
 
-## 3. `Stack`: Layout em Camadas
+## 3. `Stack` e `Container`: Layout em Camadas
 
 O `Stack` permite sobrepor widgets, ou seja, exibir elementos um sobre o outro. É muito útil para criar interfaces visuais complexas, como cartões de perfil ou imagens com legendas sobrepostas.
 
 ### Propriedades principais
 - `alignment`: Define o alinhamento padrão dos widgets empilhados.
 - `fit`: Ajusta o tamanho do `Stack`.
-
-### Exemplo de uso de `Stack`
-
-```dart
-import 'package:flutter/material.dart';
-
-void main() => runApp(MyApp());
-
-class MyApp extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
-      home: Scaffold(
-        appBar: AppBar(title: Text('Exemplo de Stack')),
-        body: Center(
-          child: Stack(
-            alignment: Alignment.center,
-            children: [
-              Container(
-                width: 200,
-                height: 200,
-                color: Colors.blue,
-              ),
-              Container(
-                width: 150,
-                height: 150,
-                color: Colors.red,
-              ),
-              Container(
-                width: 100,
-                height: 100,
-                color: Colors.green,
-              ),
-            ],
-          ),
-        ),
-      ),
-    );
-  }
-}
-```
-
-> **Explicação**: No exemplo, três contêineres são sobrepostos usando um `Stack`. Cada contêiner tem uma cor diferente e tamanhos variados, criando um efeito de sobreposição.
-
----
-
-## 4. `Container`: Flexibilidade no Layout
 
 O `Container` é um widget versátil que permite estilizar outros widgets com margens, padding, bordas, cores e transformações. Ele é frequentemente usado para aplicar estilos a widgets específicos.
 
@@ -146,7 +99,7 @@ O `Container` é um widget versátil que permite estilizar outros widgets com ma
 - `padding` e `margin`: Adicionam espaço interno e externo ao widget.
 - `decoration`: Permite personalizar o contêiner com bordas e sombra.
 
-### Exemplo de uso de `Container`
+### Exemplo de uso de `Stack` e `Container`
 
 ```dart
 import 'package:flutter/material.dart';
@@ -154,8 +107,6 @@ import 'package:flutter/material.dart';
 void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {
-  const MyApp({super.key});
-
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -189,7 +140,10 @@ class MyApp extends StatelessWidget {
 }
 ```
 
-> **Explicação**: Aqui, um `Container` estilizado envolve um texto centralizado. A propriedade `decoration` permite adicionar uma cor de fundo, bordas arredondadas e sombra.
+>  No exemplo, três contêineres são sobrepostos usando um `Stack`. Cada contêiner tem uma cor diferente e tamanhos variados, criando um efeito de sobreposição.
+
+
+>  Aqui, um `Container` estilizado envolve um texto centralizado. A propriedade `decoration` permite adicionar uma cor de fundo, bordas arredondadas e sombra.
 
 ---
 
