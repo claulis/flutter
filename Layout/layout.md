@@ -26,8 +26,8 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
-        appBar: AppBar(title: Text('Exemplo de Column')),
-        body: Column(
+        appBar: AppBar(title:const Text('Exemplo de Column')),
+        body: const Column(
           mainAxisAlignment: MainAxisAlignment.center,
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
@@ -66,8 +66,8 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
-        appBar: AppBar(title: Text('Exemplo de Row')),
-        body: Row(
+        appBar: AppBar(title: const Text('Exemplo de Row')),
+        body: const Row(
           mainAxisAlignment: MainAxisAlignment.spaceAround,
           children: [
             Icon(Icons.star, size: 50, color: Colors.blue),
@@ -154,35 +154,33 @@ import 'package:flutter/material.dart';
 void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {
+  const MyApp({super.key});
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
-        appBar: AppBar(title: Text('Exemplo de Container')),
+        appBar: AppBar(title: Text('Exemplo de Stack')),
         body: Center(
-          child: Container(
-            width: 200,
-            height: 200,
-            padding: EdgeInsets.all(20),
-            margin: EdgeInsets.all(10),
-            decoration: BoxDecoration(
-              color: Colors.blue,
-              borderRadius: BorderRadius.circular(15),
-              boxShadow: [
-                BoxShadow(
-                  color: Colors.black.withOpacity(0.5),
-                  offset: Offset(4, 4),
-                  blurRadius: 10,
-                ),
-              ],
-            ),
-            child: Center(
-              child: Text(
-                'Texto no Container',
-                style: TextStyle(color: Colors.white, fontSize: 16),
-                textAlign: TextAlign.center,
+          child: Stack(
+            alignment: Alignment.center,
+            children: [
+              Container(
+                width: 200,
+                height: 200,
+                color: Colors.blue,
               ),
-            ),
+              Container(
+                width: 150,
+                height: 150,
+                color: Colors.red,
+              ),
+              Container(
+                width: 100,
+                height: 100,
+                color: Colors.green,
+              ),
+            ],
           ),
         ),
       ),
