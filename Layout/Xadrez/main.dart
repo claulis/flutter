@@ -26,7 +26,19 @@ class Tabuleiro extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Column(
+   return Center(
+    child:  Container(
+    width:330,
+    height: 330,
+    margin:const EdgeInsets.all(250.0),
+    decoration: BoxDecoration(
+    border: Border.all(
+      color: Colors.black54,
+      width: 2.0,
+      style: BorderStyle.solid
+    )
+   ),
+   child:  Column(
       mainAxisAlignment: MainAxisAlignment.center,
       children: List.generate(8, (rowIndex) {
         // Cada linha é uma Row
@@ -42,7 +54,7 @@ class Tabuleiro extends StatelessWidget {
               child: Stack(
                 children: [
                   // Exemplo de elemento opcional (um círculo no centro)
-                  if (rowIndex == 0 && colIndex == 0) // Coloca peça na primeira casa
+                  if (preto && rowIndex != 3 && rowIndex !=4) // Coloca peça na primeira casa
                     Center(
                       child: Container(
                         width: 20,
@@ -59,6 +71,9 @@ class Tabuleiro extends StatelessWidget {
           }),
         );
       }),
-    );
+    ) 
+   )
+   ); 
+    
   }
 }
