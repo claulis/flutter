@@ -13,7 +13,7 @@ class XadrezApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       home: Scaffold(
         appBar: AppBar(
-          title: const Text('Tabuleiro de Xadrez'),
+          title: const Text('Tabuleiro de Dama'),
         ),
         body: const Tabuleiro(),
       ),
@@ -54,13 +54,24 @@ class Tabuleiro extends StatelessWidget {
               child: Stack(
                 children: [
                   // Exemplo de elemento opcional (um círculo no centro)
-                  if (preto && rowIndex != 3 && rowIndex !=4) // Coloca peça na primeira casa
+                  if (preto && rowIndex !=0 && rowIndex !=1 && rowIndex !=2 && rowIndex !=3 && rowIndex !=4 ) 
                     Center(
                       child: Container(
                         width: 20,
                         height: 20,
                         decoration: const BoxDecoration(
                           color: Colors.red,
+                          shape: BoxShape.circle,
+                        ),
+                      ),
+                    ),
+                  if(preto && rowIndex !=3 && rowIndex !=4 && rowIndex !=5 && rowIndex !=6 && rowIndex !=7)
+                  Center(
+                      child: Container(
+                        width: 20,
+                        height: 20,
+                        decoration: const BoxDecoration(
+                          color: Colors.green,
                           shape: BoxShape.circle,
                         ),
                       ),
@@ -73,7 +84,8 @@ class Tabuleiro extends StatelessWidget {
       }),
     ) 
    )
-   ); 
+   );
+   
     
   }
 }
