@@ -1,7 +1,10 @@
 # Arquitetura de Software no Desenvolvimento Flutter: Princípios e Práticas para Aplicações Robustas
 
 
-Flutter é um framework para desenvolvimento mobile, cross-platform  que possui alguns princípios fundamentais de arquitetura de software. Conceitos como Separation of Concerns, arquitetura em camadas, Single Source of Truth, Unidirectional Data Flow, UI como função de estado imutável, extensibilidade e testabilidade foram a base engenheristica para a criação deste framework. É importante entender o contexto, a justiicativa e a aplicabilidade destes conceitos de arquitetur para um desenvolvimento de aplicativos de fácil manutenção e atualização (Bass, Clements e Kazman, 2021).
+Flutter é um framework para desenvolvimento mobile, cross-platform  que possui alguns princípios fundamentais de arquitetura de software. 
+Existem vários padrões de arquitetura de software e de projetos que podem ser implementados com Flutter ou qualquer outro frmework de desenvolvimento mobile, porém, torna-se importante conhecer alguns princípios fundamentais, que são de base para alguns famosos padrões arquiteturais.
+
+Conceitos como Separation of Concerns, arquitetura em camadas, Single Source of Truth, Unidirectional Data Flow, UI como função de estado imutável, extensibilidade e testabilidade foram a base engenheristica para a criação deste framework. É importante entender o contexto, a justiicativa e a aplicabilidade destes conceitos de arquitetur para um desenvolvimento de aplicativos de fácil manutenção e atualização (Bass, Clements e Kazman, 2021).
 
 Flutter, um framework de UI criado pelo Google, tem ganhado popularidade significativa devido à sua capacidade de desenvolvimento multiplataforma e renderização de alta performance. Entretanto, segundo com a crescente complexidade das aplicações, adotar princípios sólidos de arquitetura torna-se uma necessidade fundamental para equipes de desenvolvimento.
 
@@ -74,11 +77,7 @@ Alessandria e Kayfitz (2021) observam que o próprio Flutter foi projetado com e
 
 A testabilidade refere-se à facilidade com que componentes de software podem ser verificados quanto à sua correção. Martin (2018) argumenta que a testabilidade é tanto um resultado de boa arquitetura quanto um driver para decisões arquiteturais sólidas.
 
-Em Flutter, a testabilidade é promovida através de:
-
-- Separação clara entre lógica de negócios e UI
-- Injeção de dependências para facilitar mocks
-- Estruturas de código que permitem testes unitários, de widget e de integração
+Em Flutter, a testabilidade é promovida através da separação clara entre lógica de negócios e UI e por permitir estruturas de código tastáveis a vários níveis.
 
 O ecossistema Flutter oferece ferramentas robustas para testes, incluindo o framework de testes nativo e bibliotecas. Os testes de aplicações Flutter  permitem três níveis:
 
