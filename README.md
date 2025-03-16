@@ -8,6 +8,6 @@ Este projeto recolhe material didático, teórico e prático abrangente com exem
 
 ## Escolha uma apostila
 
-[<img src="https://dart.dev/assets/img/logo/dart-logo-for-shares.png" width="180">](URL_PARA_DART_AQUI)
+[<img src="https://dart.dev/assets/img/logo/dart-logo-for-shares.png" width="180">]((https://github.com/claulis/flutter/blob/main/dart/README.md)
 
 [<img src="https://storage.googleapis.com/cms-storage-bucket/c823e53b3a1a7b0d36a9.png" width="180">](URL_PARA_FLUTTER_AQUI)
