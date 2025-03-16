@@ -40,5 +40,5 @@ Diversas empresas de destaque utilizam Dart em seus produtos:
 
 ---
 Vai para:
- - [Sumário]()
- - [Próxima aula]()
+- [Sumário](https://github.com/claulis/flutter/blob/main/dart/README.md)
+- [Próximo capítulo](https://github.com/claulis/flutter/blob/main/dart/capitulos/origens-historia.md)
