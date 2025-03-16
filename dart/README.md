@@ -169,7 +169,5 @@ Material didático completo para aprendizado da linguagem Dart.
 - Parser JSON
 - Aplicação com persistência de dados
 
-Vai para:
-- [Sumário](https://github.com/claulis/flutter/blob/main/dart/README.md)
-- [Próximo capítulo](https://github.com/claulis/flutter/blob/main/dart/capitulos/origens-historia.md)
+
 
