@@ -1,35 +1,9 @@
-# Flutter
-
+# Curso de Desenvolvimento Dart/Flutter
+[![Flutter](https://img.shields.io/badge/Flutter-3.16.0-02569B?style=plastic&logo=flutter&logoColor=white&borderRadius=20)](https://flutter.dev)
+[![Dart](https://img.shields.io/badge/Dart-3.3.0-0175C2?style=plastic&logo=dart&logoColor=white&borderRadius=20)](https://dart.dev)
 Material didático para desenvolvimento mobile
+[![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
-## Sumário
-- **Introdução ao Flutter:**
-  - Configuração do Ambiente
-  - Instalação do Flutter SDK e configuração do IDE (Visual Studio Code ou Android Studio).
-- **Construindo os primeiros aplicativos:**
-  - Primerio app (olá mundo) [primeiroapp](https://github.com/claulis/flutter/tree/main/primeiroapp)
-  - Segundo app (Formulário básico) [segundoapp](https://github.com/claulis/flutter/tree/main/segundoapp)
-  - Terceiro app (Formulário básico usando duas páginas) [segundoapp](https://github.com/claulis/flutter/tree/main/terceiroapp)
-- **[Widgets Básicos:](https://github.com/claulis/flutter/blob/main/widget/widgets.md)**
-  - [Stateless Widgets](https://github.com/claulis/flutter/blob/main/widget/stateless.md).
-  - Stateful Widgets.
-- **Layouts e Estilização:**
-  - Criando layouts responsivos com Flexbox.
-  - Aplicando estilos e temas.
-- **Gerenciamento de Estado:**
-  - Introdução ao Provider e MobX para gerenciamento de estado.
-  - Interação com o Usuário:
-  - Formulários e validação de dados.
-- **Manipulação de eventos.**
-- **HTTP Requests:**
-  - Como fazer requisições a APIs RESTful usando o pacote http.
-- **Animações e Transições:**
-  - Implementação de animações simples usando o Flutter.
-- **Uso de Recursos do Dispositivo:**
-  - Acesso à câmera, localização e armazenamento local. 
-- **Persistência de Dados:**
-  - Introdução ao uso de bancos de dados locais (SQLite).
-- **Preparação para Publicação:**
-  - Como preparar o aplicativo para publicação nas lojas.
-- **Processo de Publicação:**
-  - Passo a passo para publicar no Google Play Store e Apple App Store.
+
+[<img src="https://dart.dev/assets/img/logo/dart-logo-for-shares.png" width="150">](URL_PARA_DART_AQUI)
+[<img src="https://storage.googleapis.com/cms-storage-bucket/c823e53b3a1a7b0d36a9.png" width="150">](URL_PARA_FLUTTER_AQUI)
