@@ -71,7 +71,7 @@ Material didático completo para aprendizado da linguagem Dart.
 - Dynamic e var
 - Conversão entre tipos
 
-### 11-operadores.md
+### [Operadores](../dart/capitulos/operadores.md)
 - Operadores aritméticos
 - Operadores de atribuição
 - Operadores de comparação
