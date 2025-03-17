@@ -1,0 +1,121 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <!-- Background -->
+  <rect x="0" y="0" width="800" height="600" fill="#f7f9fb" rx="10" ry="10" />
+  
+  <!-- Title -->
+  <text x="400" y="40" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="#0175C2">Arquitetura da Dart Virtual Machine</text>
+  
+  <!-- Main VM Container -->
+  <rect x="100" y="80" width="600" height="480" rx="10" ry="10" fill="#e7f0fd" stroke="#0175C2" stroke-width="2" />
+  
+  <!-- VM Header -->
+  <rect x="100" y="80" width="600" height="40" rx="10" ry="10" fill="#0175C2" />
+  <text x="400" y="106" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="white">Dart VM</text>
+  
+  <!-- Components Boxes -->
+  
+  <!-- Compiler Pipeline -->
+  <rect x="130" y="140" width="240" height="160" rx="5" ry="5" fill="white" stroke="#0175C2" stroke-width="1" />
+  <text x="250" y="162" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#0175C2">Pipeline de Compilação</text>
+  
+  <!-- Parser -->
+  <rect x="150" y="175" width="200" height="30" rx="5" ry="5" fill="#B3E5FC" stroke="#0288D1" stroke-width="1" />
+  <text x="250" y="195" font-family="Arial, sans-serif" font-size="14" text-anchor="middle">Parser</text>
+  
+  <!-- Compiler -->
+  <rect x="150" y="215" width="200" height="30" rx="5" ry="5" fill="#B3E5FC" stroke="#0288D1" stroke-width="1" />
+  <text x="250" y="235" font-family="Arial, sans-serif" font-size="14" text-anchor="middle">Compilador (JIT/AOT)</text>
+  
+  <!-- Optimization -->
+  <rect x="150" y="255" width="200" height="30" rx="5" ry="5" fill="#B3E5FC" stroke="#0288D1" stroke-width="1" />
+  <text x="250" y="275" font-family="Arial, sans-serif" font-size="14" text-anchor="middle">Otimizador</text>
+  
+  <!-- Runtime System -->
+  <rect x="430" y="140" width="240" height="160" rx="5" ry="5" fill="white" stroke="#0175C2" stroke-width="1" />
+  <text x="550" y="162" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#0175C2">Runtime System</text>
+  
+  <!-- GC -->
+  <rect x="450" y="175" width="200" height="30" rx="5" ry="5" fill="#FFECB3" stroke="#FFA000" stroke-width="1" />
+  <text x="550" y="195" font-family="Arial, sans-serif" font-size="14" text-anchor="middle">Garbage Collector</text>
+  
+  <!-- Memory Manager -->
+  <rect x="450" y="215" width="200" height="30" rx="5" ry="5" fill="#FFECB3" stroke="#FFA000" stroke-width="1" />
+  <text x="550" y="235" font-family="Arial, sans-serif" font-size="14" text-anchor="middle">Gerenciador de Memória</text>
+  
+  <!-- Event Loop -->
+  <rect x="450" y="255" width="200" height="30" rx="5" ry="5" fill="#FFECB3" stroke="#FFA000" stroke-width="1" />
+  <text x="550" y="275" font-family="Arial, sans-serif" font-size="14" text-anchor="middle">Event Loop</text>
+  
+  <!-- Execution Engine -->
+  <rect x="130" y="320" width="540" height="90" rx="5" ry="5" fill="white" stroke="#0175C2" stroke-width="1" />
+  <text x="400" y="342" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#0175C2">Motor de Execução</text>
+  
+  <!-- Interpreter -->
+  <rect x="150" y="355" width="160" height="40" rx="5" ry="5" fill="#C8E6C9" stroke="#4CAF50" stroke-width="1" />
+  <text x="230" y="380" font-family="Arial, sans-serif" font-size="14" text-anchor="middle">Interpretador</text>
+  
+  <!-- Native code -->
+  <rect x="320" y="355" width="160" height="40" rx="5" ry="5" fill="#C8E6C9" stroke="#4CAF50" stroke-width="1" />
+  <text x="400" y="380" font-family="Arial, sans-serif" font-size="14" text-anchor="middle">Código Nativo</text>
+  
+  <!-- Instrumenter -->
+  <rect x="490" y="355" width="160" height="40" rx="5" ry="5" fill="#C8E6C9" stroke="#4CAF50" stroke-width="1" />
+  <text x="570" y="380" font-family="Arial, sans-serif" font-size="14" text-anchor="middle">Instrumentação</text>
+  
+  <!-- Isolates -->
+  <rect x="130" y="430" width="540" height="110" rx="5" ry="5" fill="white" stroke="#0175C2" stroke-width="1" />
+  <text x="400" y="452" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#0175C2">Isolates</text>
+  
+  <!-- Isolate 1 -->
+  <rect x="150" y="465" width="150" height="60" rx="5" ry="5" fill="#E1BEE7" stroke="#9C27B0" stroke-width="1" />
+  <text x="225" y="490" font-family="Arial, sans-serif" font-size="14" text-anchor="middle">Isolate 1</text>
+  <text x="225" y="510" font-family="Arial, sans-serif" font-size="12" text-anchor="middle">Heap próprio</text>
+  
+  <!-- Isolate 2 -->
+  <rect x="325" y="465" width="150" height="60" rx="5" ry="5" fill="#E1BEE7" stroke="#9C27B0" stroke-width="1" />
+  <text x="400" y="490" font-family="Arial, sans-serif" font-size="14" text-anchor="middle">Isolate 2</text>
+  <text x="400" y="510" font-family="Arial, sans-serif" font-size="12" text-anchor="middle">Heap próprio</text>
+  
+  <!-- Isolate 3 -->
+  <rect x="500" y="465" width="150" height="60" rx="5" ry="5" fill="#E1BEE7" stroke="#9C27B0" stroke-width="1" />
+  <text x="575" y="490" font-family="Arial, sans-serif" font-size="14" text-anchor="middle">Isolate 3</text>
+  <text x="575" y="510" font-family="Arial, sans-serif" font-size="12" text-anchor="middle">Heap próprio</text>
+  
+  <!-- Input Arrows -->
+  <path d="M400,70 L400,80" stroke="#333" stroke-width="2" fill="none" marker-end="url(#arrowhead)" />
+  
+  <!-- Output Arrows -->
+  <path d="M400,560 L400,580" stroke="#333" stroke-width="2" fill="none" marker-end="url(#arrowhead)" />
+  
+  <!-- Arrow definitions -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#333" />
+    </marker>
+  </defs>
+  
+  <!-- Input Label -->
+  <text x="410" y="65" font-family="Arial, sans-serif" font-size="12" fill="#333">Código Dart (.dart)</text>
+  
+  <!-- Output Label -->
+  <text x="410" y="590" font-family="Arial, sans-serif" font-size="12" fill="#333">Execução</text>
+  
+  
+ 
+ <!-- LinkedIn Logo e URL -->
+  <g transform="translate(50, 560)">
+    <!-- LinkedIn Logo -->
+    <rect x="0" y="0" width="30" height="30" fill="#0077B5" rx="4" />
+    <text x="15" y="22" font-family="Arial" font-size="22" text-anchor="middle" fill="white" font-weight="bold">in</text>
+    
+    <!-- LinkedIn URL -->
+    <text x="40" y="20" font-family="Arial" font-size="14" text-anchor="start" fill="#0077B5">www.linkedin.com/in/claudioulisse/</text>
+  </g>
+  
+  <!-- Definição de setas -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#333333" />
+    </marker>
+  </defs>
+</svg>

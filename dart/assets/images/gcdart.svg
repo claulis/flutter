@@ -1,0 +1,121 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <!-- Título -->
+  <text x="400" y="40" font-family="Arial" font-size="24" text-anchor="middle" font-weight="bold">Funcionamento do Garbage Collector do Dart</text>
+  
+  <!-- Ciclo de Vida da Memória -->
+  <rect x="50" y="80" width="200" height="180" fill="#e6f7ff" stroke="#0099cc" stroke-width="2" rx="10" />
+  <text x="150" y="100" font-family="Arial" font-size="16" text-anchor="middle" font-weight="bold">Ciclo de Vida da Memória</text>
+  
+  <rect x="80" y="120" width="140" height="30" fill="#ffffff" stroke="#0099cc" stroke-width="1" rx="5" />
+  <text x="150" y="140" font-family="Arial" font-size="12" text-anchor="middle">Alocação de Objetos</text>
+  
+  <rect x="80" y="160" width="140" height="30" fill="#ffffff" stroke="#0099cc" stroke-width="1" rx="5" />
+  <text x="150" y="180" font-family="Arial" font-size="12" text-anchor="middle">Uso dos Objetos</text>
+  
+  <rect x="80" y="200" width="140" height="30" fill="#ffffff" stroke="#0099cc" stroke-width="1" rx="5" />
+  <text x="150" y="220" font-family="Arial" font-size="12" text-anchor="middle">Coleta de Objetos</text>
+  
+  <!-- Setas ciclo de vida (corrigidas) -->
+  <path d="M150 150 L150 160" stroke="#0099cc" stroke-width="2" fill="none" marker-end="url(#arrowhead)" />
+  <path d="M150 190 L150 200" stroke="#0099cc" stroke-width="2" fill="none" marker-end="url(#arrowhead)" />
+  <path d="M80 215 L60 215 L60 135 L80 135" stroke="#0099cc" stroke-width="2" fill="none" marker-end="url(#arrowhead)" />
+  
+  <!-- Gerações do GC -->
+  <rect x="300" y="80" width="200" height="180" fill="#fff2e6" stroke="#ff9933" stroke-width="2" rx="10" />
+  <text x="400" y="100" font-family="Arial" font-size="16" text-anchor="middle" font-weight="bold">Gerações do GC</text>
+  
+  <rect x="330" y="120" width="140" height="40" fill="#ffffff" stroke="#ff9933" stroke-width="1" rx="5" />
+  <text x="400" y="140" font-family="Arial" font-size="12" text-anchor="middle">Nova Geração</text>
+  <text x="400" y="155" font-family="Arial" font-size="10" text-anchor="middle">(Scavenger)</text>
+  
+  <rect x="330" y="190" width="140" height="40" fill="#ffffff" stroke="#ff9933" stroke-width="1" rx="5" />
+  <text x="400" y="210" font-family="Arial" font-size="12" text-anchor="middle">Geração Antiga</text>
+  <text x="400" y="225" font-family="Arial" font-size="10" text-anchor="middle">(Mark-Sweep-Compact)</text>
+  
+  <!-- Setas gerações -->
+  <path d="M400 160 L400 190" stroke="#ff9933" stroke-width="2" fill="none" marker-end="url(#arrowhead)" />
+  
+  <!-- Fases da Coleta -->
+  <rect x="550" y="80" width="200" height="180" fill="#e6ffe6" stroke="#339933" stroke-width="2" rx="10" />
+  <text x="650" y="100" font-family="Arial" font-size="16" text-anchor="middle" font-weight="bold">Fases da Coleta</text>
+  
+  <rect x="580" y="120" width="140" height="25" fill="#ffffff" stroke="#339933" stroke-width="1" rx="5" />
+  <text x="650" y="135" font-family="Arial" font-size="12" text-anchor="middle">1. Marcação</text>
+  
+  <rect x="580" y="155" width="140" height="25" fill="#ffffff" stroke="#339933" stroke-width="1" rx="5" />
+  <text x="650" y="170" font-family="Arial" font-size="12" text-anchor="middle">2. Varredura</text>
+  
+  <rect x="580" y="190" width="140" height="25" fill="#ffffff" stroke="#339933" stroke-width="1" rx="5" />
+  <text x="650" y="205" font-family="Arial" font-size="12" text-anchor="middle">3. Compactação</text>
+  
+  <rect x="580" y="225" width="140" height="25" fill="#ffffff" stroke="#339933" stroke-width="1" rx="5" />
+  <text x="650" y="240" font-family="Arial" font-size="12" text-anchor="middle">4. Liberação</text>
+  
+  <!-- Setas fases -->
+  <path d="M650 145 L650 155" stroke="#339933" stroke-width="2" fill="none" marker-end="url(#arrowhead)" />
+  <path d="M650 180 L650 190" stroke="#339933" stroke-width="2" fill="none" marker-end="url(#arrowhead)" />
+  <path d="M650 215 L650 225" stroke="#339933" stroke-width="2" fill="none" marker-end="url(#arrowhead)" />
+  
+  <!-- Algoritmos de GC -->
+  <rect x="50" y="300" width="340" height="220" fill="#f7e6ff" stroke="#9933cc" stroke-width="2" rx="10" />
+  <text x="220" y="320" font-family="Arial" font-size="16" text-anchor="middle" font-weight="bold">Algoritmos de GC</text>
+  
+  <rect x="80" y="340" width="280" height="35" fill="#ffffff" stroke="#9933cc" stroke-width="1" rx="5" />
+  <text x="220" y="355" font-family="Arial" font-size="12" text-anchor="middle">Scavenger</text>
+  <text x="220" y="370" font-family="Arial" font-size="10" text-anchor="middle">(Rápido para objetos novos)</text>
+  
+  <rect x="80" y="385" width="280" height="35" fill="#ffffff" stroke="#9933cc" stroke-width="1" rx="5" />
+  <text x="220" y="400" font-family="Arial" font-size="12" text-anchor="middle">Mark-Sweep</text>
+  <text x="220" y="415" font-family="Arial" font-size="10" text-anchor="middle">(Para geração antiga)</text>
+  
+  <rect x="80" y="430" width="280" height="35" fill="#ffffff" stroke="#9933cc" stroke-width="1" rx="5" />
+  <text x="220" y="445" font-family="Arial" font-size="12" text-anchor="middle">Mark-Compact</text>
+  <text x="220" y="460" font-family="Arial" font-size="10" text-anchor="middle">(Desfragmentação)</text>
+  
+  <rect x="80" y="475" width="280" height="35" fill="#ffffff" stroke="#9933cc" stroke-width="1" rx="5" />
+  <text x="220" y="490" font-family="Arial" font-size="12" text-anchor="middle">Concurrent Marking</text>
+  <text x="220" y="505" font-family="Arial" font-size="10" text-anchor="middle">(Reduz pausas)</text>
+  
+  <!-- Estratégias de Otimização -->
+  <rect x="440" y="300" width="310" height="220" fill="#ffe6e6" stroke="#cc3333" stroke-width="2" rx="10" />
+  <text x="595" y="320" font-family="Arial" font-size="16" text-anchor="middle" font-weight="bold">Estratégias de Otimização</text>
+  
+  <rect x="470" y="340" width="250" height="30" fill="#ffffff" stroke="#cc3333" stroke-width="1" rx="5" />
+  <text x="595" y="360" font-family="Arial" font-size="12" text-anchor="middle">Estratégia Geracional</text>
+  
+  <rect x="470" y="380" width="250" height="30" fill="#ffffff" stroke="#cc3333" stroke-width="1" rx="5" />
+  <text x="595" y="400" font-family="Arial" font-size="12" text-anchor="middle">Write Barriers</text>
+  
+  <rect x="470" y="420" width="250" height="30" fill="#ffffff" stroke="#cc3333" stroke-width="1" rx="5" />
+  <text x="595" y="440" font-family="Arial" font-size="12" text-anchor="middle">Coleta Incremental</text>
+  
+  <rect x="470" y="460" width="250" height="30" fill="#ffffff" stroke="#cc3333" stroke-width="1" rx="5" />
+  <text x="595" y="480" font-family="Arial" font-size="12" text-anchor="middle">Coleta Paralela</text>
+  
+  <rect x="470" y="500" width="250" height="30" fill="#ffffff" stroke="#cc3333" stroke-width="1" rx="5" />
+  <text x="595" y="520" font-family="Arial" font-size="12" text-anchor="middle">Tratamento especial para isolates</text>
+  
+    <!-- Definição de setas -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#333333" />
+    </marker>
+  </defs>
+
+  <!-- LinkedIn Logo e URL -->
+  <g transform="translate(50, 560)">
+    <!-- LinkedIn Logo -->
+    <rect x="0" y="0" width="30" height="30" fill="#0077B5" rx="4" />
+    <text x="15" y="22" font-family="Arial" font-size="22" text-anchor="middle" fill="white" font-weight="bold">in</text>
+    
+    <!-- LinkedIn URL -->
+    <text x="40" y="20" font-family="Arial" font-size="14" text-anchor="start" fill="#0077B5">www.linkedin.com/in/claudioulisse/</text>
+  </g>
+  
+  <!-- Definição de setas -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#333333" />
+    </marker>
+  </defs>
+</svg>

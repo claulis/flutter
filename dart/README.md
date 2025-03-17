@@ -21,53 +21,50 @@ Material didático completo para aprendizado da linguagem Dart.
 - Principais marcos e versões
 - Filosofia de design
 
-### 03-justificativas-vantagens.md
+### [Justificativa e Vantagens](https://github.com/claulis/flutter/blob/main/dart/capitulos/dart/capitulos/justificativas-vantagens.md)
 - Por que o Dart foi criado
 - Vantagens para desenvolvedores iniciantes
 - Casos de uso reais
 - Futuro da linguagem
 
-### 04-diferencas-outras-linguagens.md
+### [Diferenças de outras linguagens](https://github.com/claulis/flutter/blob/main/dart/capitulos/dart/capitulos/dart/capitulos/diferencas-outras-linguagens.md)
 - Dart vs JavaScript
-- Dart vs Python
-- Dart vs Java
-- Dart vs C/C++
 - Comparações de código em exemplos práticos
 
-### 05-arquitetura-dart.md
+### [Arquitetura da linguagem](../dart/capitulos/arquitetura-dart.md)
 - Dart VM
 - Compilação AOT e JIT
 - Garbage Collector
 - Sound Null Safety
 - Isolates e concorrência
 
-### 06-instalacao-configuracao.md
+### [Instalação e configuração](../dart/capitulos/instalacao-configuracao.md)
 - Instalação do SDK Dart
 - Configuração de variáveis de ambiente
 - Verificação da instalação
 - Dart CLI básico
 
-### 07-configurando-vscode.md
+### [Configuração do VS Code](../dart/capitulos/configurando-vscode.md)
 - Instalação do VS Code
 - Extensões recomendadas para Dart
 - Configuração do ambiente
 - Temas e personalização para desenvolvimento Dart
 
-### 08-primeiro-programa.md
+### [Primeiro programa](../dart/capitulos/primeiro-programa.md)
 - Estrutura básica de um programa Dart
 - Hello World
 - Execução do programa
 - Comentários em Dart
 - Padrões de formatação de código
 
-### 09-variaveis-constantes.md
+### [Variáveis e Constantes](../dart/capitulos/variaveis-constantes.md)
 - Declaração de variáveis
 - Tipos de variáveis
 - Const vs Final
 - Escopo de variáveis
 - Naming conventions
 
-### 10-tipos-dados-basicos.md
+### [Tipos básicos](../dart/capitulos/tipos-dados-basicos.md)
 - Números (int, double)
 - Strings
 - Booleanos
