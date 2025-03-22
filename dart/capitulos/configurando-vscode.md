@@ -36,11 +36,8 @@ Após instalar o VS Code, você deve adicionar algumas extensões essenciais par
 1. **Dart**: Oferece suporte básico para a linguagem Dart (syntax highlighting, formatação, etc.)
 2. **Flutter**: Se você planeja desenvolver com Flutter, esta extensão é essencial
 3. **Dart Data Class Generator**: Facilita a criação de classes de dados
-4. **Dart Import Sorter**: Organiza automaticamente seus imports
+4. **Dart Import**: Organiza automaticamente seus imports
 5. **Pubspec Assist**: Facilita a adição de dependências ao arquivo pubspec.yaml
-6. **Better Comments**: Melhora a formatação de comentários no código
-7. **Error Lens**: Realça erros e avisos diretamente no código
-8. **Code Spell Checker**: Verifica erros ortográficos nos comentários e strings
 
 Para instalar estas extensões:
 1. Abra o VS Code

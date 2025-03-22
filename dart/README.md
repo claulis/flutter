@@ -79,14 +79,14 @@ Material didático completo para aprendizado da linguagem Dart.
 - Operadores bitwise
 - Cascade operator (..)
 
-### 12-estruturas-controle.md
+### [Estruturas de controle de fluxo](../dart/capitulos/estruturas-controle.md)
 - If/else
 - Switch/case
 - Loops (for, while, do-while)
 - Break e continue
 - Assert statements
 
-### 13-colecoes.md
+### [Coleções](../dart/capitulos/colecoes.md)
 - Listas
 - Sets
 - Mapas
