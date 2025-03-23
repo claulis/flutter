@@ -94,7 +94,7 @@ Material didático completo para aprendizado da linguagem Dart.
 - Iteração em coleções
 - Spread operator
 
-### 14-funcoes.md
+### [Funções](../dart/capitulos/funcoes.md)
 - Definição de funções
 - Parâmetros obrigatórios e opcionais
 - Parâmetros nomeados
@@ -102,7 +102,7 @@ Material didático completo para aprendizado da linguagem Dart.
 - Funções de ordem superior
 - Closures
 
-### 16-poo-classes-objetos.md
+### [Classes e Objetos](../dart/capitulos/poo-classes-objetos.md)
 - Definição de classes
 - Criação de objetos
 - Construtores
@@ -110,21 +110,21 @@ Material didático completo para aprendizado da linguagem Dart.
 - Getters e setters
 - Static members
 
-### 17-poo-heranca-polimorfismo.md
+### [Herança e Polimorfismo](../dart/capitulos/poo-heranca-polimorfismo.md)
 - Herança em Dart
 - Extensão de classes
 - Sobrescrita de métodos
 - Polimorfismo
 - Operador super
 
-### 18-poo-encapsulamento-abstracao.md
+### [Encapsulamento e Abstração](../dart/capitulos/poo-encapsulamento-abstracao.md)
 - Encapsulamento em Dart
 - Modificadores de acesso
 - Classes abstratas
 - Interfaces em Dart
 - Mixins
 
-### 19-programacao-funcional.md
+### [Programação Funcional](../dart/capitulos/programacao-funcional.md)
 - Conceitos de programação funcional
 - Funções puras
 - Funções de alta ordem
@@ -164,7 +164,7 @@ Material didático completo para aprendizado da linguagem Dart.
 - Mini jogo em texto
 - Cliente HTTP simples
 - Parser JSON
-- Aplicação com persistência de dados
+
 
 
 
