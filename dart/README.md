@@ -131,7 +131,7 @@ Material didático completo para aprendizado da linguagem Dart.
 - Map, filter, reduce
 - Imutabilidade em Dart
 
-### 20-manipulacao-eventos.md
+### [Eventos](../dart/capitulos/manipulacao-eventos.md)
 - Sistema de eventos em Dart
 - Event listeners
 - StreamController
