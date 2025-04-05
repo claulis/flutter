@@ -29,14 +29,7 @@ No warranties are given. The license may not give you all of the permissions nec
 
 This is a human-readable summary of (and not a substitute for) the [full license](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode).
 
----
 
-For information on adding this license to your repository:
-
-1. Save this content as `LICENSE.md` in the root of your GitHub repository
-2. Add the following line and badge to your README:
-
-```
 
 
 This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](LICENSE.md).
