@@ -2,7 +2,6 @@
 // Este arquivo demonstra diferentes formas de definir funções em Dart.
 
 // Importações necessárias
-import 'dart:math' as math;
 
 /// Função com tipo de retorno explícito
 /// Recebe dois números inteiros e retorna sua soma

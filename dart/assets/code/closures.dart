@@ -3,7 +3,6 @@
 // Uma closure é uma função que tem acesso a variáveis do escopo
 // onde foi definida, mesmo após a execução desse escopo ter terminado.
 
-import 'dart:math' as math;
 
 void main() {
   print('=== CLOSURES EM DART ===\n');

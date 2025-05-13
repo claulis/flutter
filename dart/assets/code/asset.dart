@@ -9,7 +9,6 @@ void main() {
   
   // Assert para verificar valor não nulo
   String? nome = 'João';
-  assert(nome != null, 'Nome não pode ser nulo');
   print('Nome: $nome');
   
   // Assert em funções
