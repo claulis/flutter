@@ -1,23 +1,22 @@
-// event_listeners.dart
-class BotaoInterativo {
-  void Function()? _onClicado;
-
-  void registrarClique(void Function() callback) {
-    _onClicado = callback;
-  }
-
-  void simularClique() {
-    print("Botão foi clicado!");
-    _onClicado?.call();
-  }
+class DummyButton{  
+   void Function()? onClick;
+   void registrarClick(void Function()? funcao) {
+     onClick = funcao;
+   }
+   void clicar() {
+     if (onClick != null) {
+       onClick!();
+     } else {
+       print('Nenhuma função registrada para o clique.');
+     }
+   }  
 }
-
 void main() {
-  var botao = BotaoInterativo();
-  
-  botao.registrarClique(() {
-    print("Ação personalizada executada!");
-  });
-
-  botao.simularClique();
+  DummyButton botao = DummyButton();  
+  void imprimirMensagem() {
+    print('Botão clicado!');
+  }
+  // Registrando a função de clique   
+  botao.registrarClick(imprimirMensagem);  
+  botao.clicar(); // Saída: Botão clicado!
 }
