@@ -23,7 +23,7 @@ No Flutter, a interface é uma árvore de widgets. Um widget pai contém widgets
 
 ## Gerenciamento de Estado no Flutter
 
-Gerenciar o estado significa controlar como os dados mudam e como a interface reflete essas mudanças. Existem várias abordagens, desde as mais simples até as mais avançadas. Vamos explorar três: **setState**, **Provider** e **Riverpod**.
+Gerenciar o estado significa controlar como os dados mudam e como a interface reflete essas mudanças. Existem várias abordagens, desde as mais simples até as mais avançadas. Existem tres maneira de gerenciar o estado: **setState**, **Provider** e **Riverpod**.
 
 ### setState (Gerenciamento Local)
 
@@ -228,7 +228,7 @@ class CounterScreen extends ConsumerWidget {
 - **Vantagem**: Mais modular, testável e não depende de `BuildContext`.
 - **Limitação**: Curva de aprendizado um pouco maior.
 
-## 4. Comparação das Abordagens
+## Comparação das Abordagens
 
 | Abordagem      | Simplicidade | Escalabilidade | Casos de Uso                     |
 |----------------|--------------|---------------|----------------------------------|
