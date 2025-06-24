@@ -32,7 +32,7 @@ Responsividade: MediaQuery, LayoutBuilder e design adaptável.
 
 3. Interatividade e Gerenciamento de Estado
 
-Gerenciamento de estado: Introdução com setState, conceitos de Provider e Riverpod (nível básico).
+[Gerenciamento de estado: Introdução com setState, conceitos de Provider e Riverpod (nível básico).](../flutter/capitulos/provider.md)
 Formulários: TextField, validação, controle de formulários com Form e GlobalKey.
 Listas dinâmicas: ListView, GridView, ListTile e manipulação de dados dinâmicos.
 Interatividade avançada: GestureDetector, InkWell e eventos de toque.
