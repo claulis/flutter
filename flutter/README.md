@@ -8,7 +8,7 @@ Material didático completo para aprendizado de Flutter.
 
 ## Sumário
 
-### [Fundamentos do Flutter](../flutter/capitulos/fundamentos_flutter.md)
+### 1. [Fundamentos do Flutter](../flutter/capitulos/fundamentos_flutter.md)
 
 - Introdução ao Flutter: O que é, arquitetura (framework, widgets, rendering engine).
 
@@ -16,28 +16,28 @@ Material didático completo para aprendizado de Flutter.
 
 - Primeiro aplicativo: Criando um app "Hello World" com Flutter.
 
-### [Conceito de Widgets: StatelessWidget vs StatefulWidget, ciclo de vida](../flutter/capitulos/stateless_statefull.md)
+### 2. [Conceito de Widgets: StatelessWidget vs StatefulWidget, ciclo de vida](../flutter/capitulos/stateless_statefull.md)
 
 - StatelessWidget
 
 - StatefulWidget
 
-2. Construção de Interfaces de Usuário
+### 3. Construção de Interfaces de Usuário
 
-Widgets básicos: Text, Image, Icon, Button (ElevatedButton, TextButton, OutlinedButton).
-Layouts: Row, Column, Stack, Container, Padding, Expanded, Flexible.
-Navegação: Navigator, rotas nomeadas, passagem de dados entre telas.
-Estilização: Temas, cores, fontes, personalização de widgets com ThemeData.
-Responsividade: MediaQuery, LayoutBuilder e design adaptável.
+[Widgets básicos](../flutter/capitulos/): Text, Image, Icon, Button (ElevatedButton, TextButton, OutlinedButton).
+Layouts: Row, Column, Stack, Container, Padding, Expanded, Flexible. [Single-Child](../flutter/capitulos/single_child_wid.md), [Multi-Child](../flutter/capitulos/multi_child_wid.md)
+[Navegação](../flutter/capitulos/nav_layout_wid.md): Navigator, rotas nomeadas, passagem de dados entre telas.
+[Posição](../flutter/capitulos/position_wid.md)
+[Estilização](../flutter/capitulos/style_layout_wid.md): Temas, cores, fontes, personalização de widgets com ThemeData.
 
-3. Interatividade e Gerenciamento de Estado
+### 4. Gerenciamento de Estado
 
 [Gerenciamento de estado: Introdução com setState, conceitos de Provider e Riverpod (nível básico).](../flutter/capitulos/provider.md)
-Formulários: TextField, validação, controle de formulários com Form e GlobalKey.
-Listas dinâmicas: ListView, GridView, ListTile e manipulação de dados dinâmicos.
-Interatividade avançada: GestureDetector, InkWell e eventos de toque.
+[Shared Preferences: salvar dados básicos localmente](../flutter/capitulos/shared_preferences.md).
 
-4. Integração de Dados
+### 5. Integração de Dados
+
+Hive: banco orientado a documentos
 
 Consumo de APIs: Uso do pacote http para requisições GET e POST.
 Parsing de JSON: Conversão de dados JSON para modelos Dart.
