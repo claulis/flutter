@@ -33,15 +33,12 @@ Layouts: Row, Column, Stack, Container, Padding, Expanded, Flexible. [Single-Chi
 ### 4. Gerenciamento de Estado
 
 [Gerenciamento de estado: Introdução com setState, conceitos de Provider e Riverpod (nível básico).](../flutter/capitulos/provider.md)
-[Shared Preferences: salvar dados básicos localmente](../flutter/capitulos/shared_preferences.md).
 
 ### 5. Integração de Dados
 
+[Shared Preferences: salvar dados básicos localmente](../flutter/capitulos/shared_preferences.md).
 Hive: banco orientado a documentos
-
 Consumo de APIs: Uso do pacote http para requisições GET e POST.
-Parsing de JSON: Conversão de dados JSON para modelos Dart.
-Persistência de dados: SharedPreferences para armazenamento simples e introdução a sqflite para bancos locais.
 Gerenciamento de erros: Tratamento de falhas em chamadas de API e estados de carregamento.
 
 5. Recursos Avançados
