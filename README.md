@@ -120,15 +120,5 @@ Para configurar seu ambiente de desenvolvimento, siga as instruções abaixo. Fo
 - **[Flutter: Construindo Apps Mobile](https://github.com/claulis/flutter/blob/main/flutter/README.md)**  
   Aprenda widgets, gerenciamento de estado, navegação e integrações com APIs.
 
----
 
-## Recursos Adicionais
-
-- **Exemplos e Projetos:** Pastas dedicadas com códigos completos no repositório.  
-- **Comunidade:** Junte-se à [Flutter Community](https://flutter.dev/community) ou discuta no Reddit/Stack Overflow.  
-- **Atualizações:** Monitore as releases para novos conteúdos.
-
-Para dúvidas, abra uma issue!
-
----
 
