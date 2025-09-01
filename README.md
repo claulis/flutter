@@ -38,26 +38,7 @@ Para configurar seu ambiente de desenvolvimento, siga as instruções abaixo. Fo
    - Isso fornece o Android SDK, emuladores e ferramentas necessárias para rodar apps Flutter em dispositivos Android.
    - Após a instalação
 
-4. **Instale o Flutter SDK via VS Code (Método Recomendado):**  
-   - Abra o VS Code.  
-   - Pressione `Ctrl + Shift + P` para abrir o Command Palette.  
-   - Digite "Flutter: New Project" e selecione a opção.  
-   - O VS Code irá pedir para localizar ou baixar o SDK: Clique em `Download SDK` (requer Git instalado).  
-   - Escolha uma pasta para instalar (ex.: `C:\dev\flutter`).
-   > Escolha a pasta C: por motivos de privilégios
-   - Clique em `Clone Flutter` para baixar (~600 MB; pode levar alguns minutos).  
-   - Após o download, adicione o SDK ao PATH quando solicitado. Clicar em `Add SDK to PATH`
-   - Feche e reabra o VS Code e todas as janelas do PowerShell para aplicar as mudanças.
-
-   **Alternativa Manual:**  
-   - Baixe o SDK do [site oficial](https://flutter.dev/docs/get-started/install/windows) (versão estável).  
-   - Extraia o arquivo ZIP para uma pasta (ex.: `C:\dev\flutter`).  
-   - Adicione `C:\dev\flutter\bin` ao PATH do sistema:  
-     - Pesquise por "Variáveis de Ambiente" no menu Iniciar.  
-     - Edite a variável "Path" em "Variáveis do Usuário" e adicione o caminho.  
-     - Salve e reinicie o PowerShell.
-
-5. **Configure o Android Toolchain no Android Studio:**  
+4. **Configure o Android Toolchain no Android Studio:**  
    - Abra o Android Studio.
    ![Android Studio](/assets/img/android.png)
    - Vá para o SDK Manager (`Tools > SDK Manager`):  
@@ -74,17 +55,28 @@ Para configurar seu ambiente de desenvolvimento, siga as instruções abaixo. Fo
      - Clique em "Apply" para instalar.  
    - Aceite as licenças do Android: Abra o PowerShell e execute `flutter doctor --android-licenses`. Aceite todos os termos (pressione 'y' e Enter).
 
-6. **Instale as Extensões no VS Code:**  
+5. **Instale as Extensões no VS Code:**  
    - Abra o VS Code.  
    - Vá para a aba Extensions (ícone de blocos no lado esquerdo).  
    - Pesquise por "Flutter" e instale a extensão oficial (Dart-Code.flutter). Isso também instala a extensão Dart automaticamente.
+
+6. **Instale o Flutter SDK via VS Code (Método Recomendado):**  
+   - Abra o VS Code.  
+   - Pressione `Ctrl + Shift + P` para abrir o Command Palette.  
+   - Digite "Flutter: New Project" e selecione a opção.  
+   - O VS Code irá pedir para localizar ou baixar o SDK: Clique em `Download SDK` (requer Git instalado).  
+   - Escolha uma pasta para instalar (ex.: `C:\dev\flutter`).
+   > Escolha a pasta C: por motivos de privilégios
+   - Clique em `Clone Flutter` para baixar (~600 MB; pode levar alguns minutos).  
+   - Após o download, adicione o SDK ao PATH quando solicitado. Clicar em `Add SDK to PATH`
+   - Feche e reabra o VS Code e todas as janelas do PowerShell para aplicar as mudanças.
 
 7. **Valide a Instalação:**  
    - No VS Code, pressione `Ctrl + Shift + P`.  
    - Digite "Flutter: Run Flutter Doctor" e execute.  
    - Verifique o Output: Deve mostrar que o Flutter, Dart, Android toolchain (incluindo Android Studio), e VS Code estão configurados corretamente. Resolva qualquer erro reportado (ex.: se faltar algo, instale via SDK Manager).  
-8. **Crie um projeto de teste:**
 
+8. **Crie um projeto de teste:**
 - No VS Code, pressione `Ctrl + Shift + P`.  
 - Digite "Flutter: New Project" e execute.
 - Escolha Application
