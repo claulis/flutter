@@ -37,8 +37,7 @@ Explicação:
 Salve o código acima em um arquivo chamado `ola_mundo.dart` e em uma pasta (ex: dart_projects).
 
 
-
-![Criar arquivo](https://github.com/user-attachments/assets/60ae6493-06dc-4237-8cfc-ee87dfaddbad)
+https://github.com/user-attachments/assets/60ae6493-06dc-4237-8cfc-ee87dfaddbad
 
 
 
