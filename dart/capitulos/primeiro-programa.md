@@ -36,7 +36,11 @@ Explicação:
 
 Salve o código acima em um arquivo chamado `ola_mundo.dart` e em uma pasta (ex: dart_projects).
 
-https://github.com/claulis/flutter/blob/main/dart/assets/videos/20250903-1206-29.6911917.mp4
+
+
+![Criar arquivo](https://github.com/user-attachments/assets/60ae6493-06dc-4237-8cfc-ee87dfaddbad)
+
+
 
 O código encontra-se aqui [ola_mundo.dart](../assets/code/ola_mundo.dart)
 
@@ -54,7 +58,7 @@ Você verá a saída:
 Olá mundo!
 ```
 
-<video controls src="/dart/assets/videos/20250903-1215-10.2444198.mp4" title="Executando arquivo Dart"></video>
+https://github.com/user-attachments/assets/5550677d-b569-4bf8-94bf-b03c86378674
 
 ## Execução de um projeto Dart
 
@@ -66,7 +70,7 @@ Olá mundo!
 4. Escolha um nome para o projeto (O nome do projeto será o nome da pasta).
 5. Espere o script dart.create crair e organizar a estrutura da pastas.
 
-<video controls src="/dart/assets/videos/20250903-1329-55.5056623.mp4" title="Criação projeto"></video>
+https://github.com/user-attachments/assets/e78a60bc-cd2f-4ab1-a370-ea4fd2076c01
 
 ### Estrutura do projeto
 
@@ -92,7 +96,9 @@ Na imagem abaixo tem a estrutura das pastas do projeto Dart
 
 Abra um novo terminal `Terminal -> New Terminal`, vá até a pasta `/bin` e execute o comando no terminal `dart run nome_arquivo.dart`
 
-<video controls src="/dart/assets/videos/20250903-1346-23.9389634.mp4" title="Executar dart"></video>
+
+https://github.com/user-attachments/assets/01554f97-5643-4341-b0f3-815ee26a5280
+
 
 ### Como compilar e executar
 
@@ -113,7 +119,9 @@ void main(List<String> arguments) {
 Depois no terminal, na pasta /bin, digite ``dart compile exe nome_arquivo.dart`
 Após isso, dart vai gerar um executável nome_arquivo.exe. Vá até a pasta do arquivo gerado e clique no .exe para executar
 
-<video controls src="/dart/assets/videos/20250903-1402-00.4375289.mp4" title="Compilação Dart"></video>
+
+https://github.com/user-attachments/assets/9b4a6195-1219-42ea-aa11-a86949b5317c
+
 
 ## Comentários em Dart
 
