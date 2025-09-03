@@ -36,7 +36,8 @@ Explicação:
 
 Salve o código acima em um arquivo chamado `ola_mundo.dart` e em uma pasta (ex: dart_projects).
 
-![Criar Arquivo Dart](/dart/assets/videos/20250903-1206-29.6911917.mp4)
+[![Watch the video]()](/dart/assets/videos/20250903-1206-29.6911917.mp4)
+<video controls src="/dart/assets/videos/20250903-1206-29.6911917.mp4" title="Criar Arquivo Dart"></video>
 
 O código encontra-se aqui [ola_mundo.dart](../assets/code/ola_mundo.dart)
 
