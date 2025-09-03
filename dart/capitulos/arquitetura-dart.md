@@ -52,17 +52,20 @@ O Dart oferece flexibilidade através de diferentes modos de compilação, adapt
 A compilação AOT transforma código Dart em código de máquina nativo antes da execução.
 
 **Vantagens:**
+
 - **Desempenho superior**: Inicialização mais rápida e execução previsível
 - **Tamanho de binário reduzido**: Não precisa incluir o compilador JIT
 - **Previsibilidade**: Sem pausas para compilação JIT durante execução
 - **Segurança**: Código compilado é mais difícil de ser inspecionado ou modificado
 
 **Desvantagens:**
+
 - **Sem hot reload**: Mudanças requerem recompilação completa
 - **Específico para plataforma**: Binários diferentes para cada arquitetura
 - **Compilação mais lenta**: Processo de compilação mais demorado
 
 **Usos principais:**
+
 - Aplicativos Flutter em produção (iOS, Android)
 - Aplicações de linha de comando em produção
 - Ambientes onde performance é crítica
@@ -72,17 +75,20 @@ A compilação AOT transforma código Dart em código de máquina nativo antes d
 A compilação JIT analisa e compila o código durante a execução.
 
 **Vantagens:**
+
 - **Hot reload**: Permite recarregar código alterado sem reiniciar o aplicativo
 - **Otimizações em runtime**: Adaptativas com base no uso real
 - **Inicialização mais rápida**: Compila apenas o código necessário
 - **Melhor para desenvolvimento**: Ciclo de desenvolvimento mais ágil
 
 **Desvantagens:**
+
 - **Overhead de memória**: O compilador precisa estar em memória
 - **Desempenho inicial mais baixo**: Código precisa ser compilado primeiro
 - **Possíveis pausas**: Durante compilação de código frequentemente usado
 
 **Usos principais:**
+
 - Ambiente de desenvolvimento Flutter
 - Dart DevServer para desenvolvimento web
 - Testes e depuração
@@ -90,6 +96,7 @@ A compilação JIT analisa e compila o código durante a execução.
 ### Compilação para JavaScript (dart2js)
 
 **Características:**
+
 - Compila Dart para JavaScript otimizado
 - Suporta todos os recursos da linguagem Dart
 - Produz código compatível com todos os navegadores modernos
@@ -281,5 +288,6 @@ O modelo de isolates do Dart fornece segurança de concorrência com a eliminaç
 
 ---
 Vai para:
-- [Sumário](https://github.com/claulis/flutter/blob/main/dart/README.md)
-- [Próximo capítulo](https://github.com/claulis/flutter/blob/main/dart/capitulos/instalacao-configuracao.md)
+
+- [Sumário](/dart/README.md)
+- [Próximo capítulo](/dart/capitulos/primeiro-programa.md)

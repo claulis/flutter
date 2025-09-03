@@ -44,21 +44,12 @@ Material didático completo para aprendizado da linguagem Dart.
 - Sound Null Safety
 - Isolates e concorrência
 
-### [Instalação e configuração](../dart/capitulos/instalacao-configuracao.md)
+### [Primeiro Projeto Dart](../dart/capitulos/primeiro-programa.md)
 
-- Instalação do SDK Dart
-- Configuração de variáveis de ambiente
-- Verificação da instalação
-- Dart CLI básico
+- Criação projeto Console básico
+- Execução
 
-### [Configuração do VS Code](../dart/capitulos/configurando-vscode.md)
-
-- Instalação do VS Code
-- Extensões recomendadas para Dart
-- Configuração do ambiente
-- Temas e personalização para desenvolvimento Dart
-
-### [Primeiro programa](../dart/capitulos/primeiro-programa.md)
+### [Dart CLI](../dart/capitulos/primeiro-programa.md)
 
 - Estrutura básica de um programa Dart
 - Hello World

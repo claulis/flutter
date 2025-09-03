@@ -1,4 +1,6 @@
-# Primeiro Programa em Dart
+# Primeiro Projeto em Dart
+
+Existem várias maneiras para criar e executar programa em Dart, aqui serão demonstradas duas maneiras: Dart CLI e Projeto Dart
 
 ## Estrutura básica de um programa Dart
 
@@ -11,7 +13,7 @@ Um programa Dart típico possui a seguinte estrutura:
 
 A função `main()` é o ponto de entrada obrigatório para qualquer aplicação Dart executável. É por ela que a execução do programa sempre começa.
 
-## Olá Mundo
+### Olá Mundo
 
 Vamos criar nosso primeiro programa Dart, o clássico "Olá mundo":
 
@@ -22,41 +24,103 @@ void main() {
 ```
 
 Explicação:
+
 - `void`: indica que a função não retorna nenhum valor
 - `main()`: a função principal que será executada quando o programa iniciar
 - `print()`: função que exibe texto no console
 - `'Olá mundo!'`: uma string (texto) entre aspas simples
 
-## Execução do programa
+## Execução com Dart CLI
 
 ### Passo 1: Crie um arquivo com extensão .dart
-Salve o código acima em um arquivo chamado `ola_mundo.dart`.
+
+Salve o código acima em um arquivo chamado `ola_mundo.dart` e em uma pasta (ex: dart_projects).
+
+<video controls src="/dart/assets/videos/20250903-1206-29.6911917.mp4" title="Criar Arquivo Dart"></video>
+
 O código encontra-se aqui [ola_mundo.dart](../assets/code/ola_mundo.dart)
 
 ### Passo 2: Execute usando o comando dart
-Abra o terminal na pasta onde está o arquivo e execute:
+
+Abra o terminal `Terminal -> New Terminal` na pasta onde está o arquivo e execute:
 
 ```bash
 dart hello_world.dart
 ```
 
 Você verá a saída:
-```
+
+```text
 Olá mundo!
 ```
 
-### Execução no VS Code
-Se estiver usando o VS Code com a extensão Dart instalada:
+<video controls src="/dart/assets/videos/20250903-1215-10.2444198.mp4" title="Executando arquivo Dart"></video>
 
-1. Abra o arquivo `.dart`
-2. Clique no botão "Run" acima da função `main()`
-3. Ou use o atalho F5 para executar o programa em modo de debug
+## Execução de um projeto Dart
+
+### Criação do projeto
+
+1. Abra o Vs Code e digite `ctrl+shift+p`.
+2. No menu vão aparecer vários tipos de projetos, por facilidade escolha um *Console Application* template.
+3. Escolha a pasta onde será criado o projeto (ex: dart_projects).
+4. Escolha um nome para o projeto (O nome do projeto será o nome da pasta).
+5. Espere o script dart.create crair e organizar a estrutura da pastas.
+
+<video controls src="/dart/assets/videos/20250903-1329-55.5056623.mp4" title="Criação projeto"></video>
+
+### Estrutura do projeto
+
+Na imagem abaixo tem a estrutura das pastas do projeto Dart
+
+![Estrutura projeto Dart](/dart/assets/images/estruturaprojetodart.png)
+
+| **Pasta/Arquivo** | **Descrição** | **Conteúdo Típico** | **Relevância** |
+|--------------------|---------------|---------------------|----------------|
+| **bin/** | Diretório com o arquivo executável principal. | Contém `bin/nome_do_projeto.dart`, ponto de entrada do app. | Inicia a execução do programa com `dart run` ou `dart compile exe`. |
+| **bin/nome_do_projeto.dart** | Arquivo com a função `main()`. | ```dart
+| **lib/** | Diretório para bibliotecas reutilizáveis. | Contém `lib/nome_do_projeto.dart` e outros arquivos Dart. | Organiza código modular e reutilizável. |
+| **lib/nome_do_projeto.dart** | Arquivo com lógica reutilizável. | ```dart<br>int calculate() {<br>  return 6 * 7;<br>}<br>``` | Contém funções ou classes importadas pelo arquivo principal. |
+| **pubspec.yaml** | Arquivo de configuração do projeto. | ```yaml<br>name: nome_do_projeto<br>description: A simple command-line application.<br>version: 1.0.0<br>environment:<br>  sdk: '>=2.19.0 <3.0.0'<br>dependencies:<br>dev_dependencies:<br>  lints: ^2.0.0<br>  test: ^1.21.0<br>``` | Define metadados e dependências do projeto. |
+| **pubspec.lock** | Registra versões exatas das dependências. | ```yaml<br>packages:<br>  args:<br>    version: 2.4.2<br>``` | Garante consistência nas dependências. |
+| **README.md** | Documentação do projeto em Markdown. | ```markdown<br># nome_do_projeto<br>A simple command-line application.<br>``` | Orienta usuários e desenvolvedores sobre o projeto. |
+| **analysis_options.yaml** | Configuração para análise estática. | ```yaml<br>include: package:lints/recommended.yaml<br>analyzer:<br>  exclude: [build/**]<br>``` | Define regras de lint para `dart analyze`. |
+| **.gitignore** | Especifica arquivos a ignorar no Git. | ```gitignore<br>.dart_tool/<br>.packages<br>build/<br>``` | Evita versionamento de arquivos temporários. |
+| **CHANGELOG.md** | Registro de alterações do projeto. | ```markdown<br># Changelog<br>## 1.0.0<br>- Initial version.<br>``` | Rastreia mudanças e versões do projeto. |
+| **test/** (opcional) | Diretório para testes. | ```dart<br>import 'package:test/test.dart';<br>void main() {<br>  test('Teste exemplo', () {<br>    expect(1 + 1, equals(2));<br>  });<br>}<br>``` | Usado com `dart test` para validar o código. |
+
+### Como executar
+
+Abra um novo terminal `Terminal -> New Terminal`, vá até a pasta `/bin` e execute o comando no terminal `dart run nome_arquivo.dart`
+
+<video controls src="/dart/assets/videos/20250903-1346-23.9389634.mp4" title="Executar dart"></video>
+
+### Como compilar e executar
+
+Com essa técnica além de executar pode gerar um executavel `.exe` que pode ser distribuido. Esse exemplo é apenas para Windows.
+
+Modifique o código para que o .exe não feche abruptamente logo após da execução (a titulo de demonstração).
+
+```dart
+import 'package:exemplo/exemplo.dart' as exemplo;
+import 'dart:io';
+
+void main(List<String> arguments) {
+  print('Hello world: ${exemplo.calculate()}!');
+   stdin.readLineSync();
+}
+```
+
+Depois no terminal, na pasta /bin, digite ``dart compile exe nome_arquivo.dart`
+Após isso, dart vai gerar um executável nome_arquivo.exe. Vá até a pasta do arquivo gerado e clique no .exe para executar
+
+<video controls src="/dart/assets/videos/20250903-1402-00.4375289.mp4" title="Compilação Dart"></video>
 
 ## Comentários em Dart
 
 Dart suporta três tipos de comentários:
 
 ### Comentários de linha única
+
 Começam com `//` e vão até o final da linha.
 
 ```dart
@@ -67,6 +131,7 @@ void main() {
 ```
 
 ### Comentários de múltiplas linhas
+
 Começam com `/*` e terminam com `*/`.
 
 ```dart
@@ -79,6 +144,7 @@ void main() {
 ```
 
 ### Comentários de documentação
+
 Começam com `///` ou `/**` e são usados para gerar documentação automática.
 
 ```dart
@@ -99,6 +165,7 @@ void main() {
 O Dart tem um guia de estilo oficial que estabelece boas práticas para formatação de código:
 
 ### Indentação
+
 - Use 2 espaços para indentação (não use tabs)
 - Alinhe blocos com chaves
   
@@ -111,11 +178,13 @@ if (condicao) {
 ```
 
 ### Nomenclatura
+
 - Use `camelCase` para variáveis e funções: `minhaVariavel`, `calcularTotal()`
 - Use `PascalCase` para classes: `MinhaClasse`, `ContaBancaria`
 - Use `snake_case` para arquivos: `meu_arquivo.dart`
 
 ### Chaves
+
 - Sempre use chaves para blocos de código, mesmo que sejam de uma linha
 
 ```dart
@@ -129,9 +198,11 @@ if (condicao) print('Verdadeiro!');
 ```
 
 ### Linha de comprimento
+
 - Limite as linhas para no máximo 80 caracteres
 
 ### Formatação automática
+
 Dart possui uma ferramenta de formatação automática:
 
 ```bash
@@ -139,6 +210,7 @@ dart format arquivo.dart
 ```
 
 No VS Code, com a extensão Dart instalada, você pode formatar o código automaticamente pressionando:
+
 - Windows/Linux: `Ctrl+Shift+F`
 - Mac: `Cmd+Shift+F`
 
@@ -146,5 +218,6 @@ Ou habilitar formatação automática ao salvar nas configurações do VS Code.
 
 ---
 Vai para:
-- [Sumário](https://github.com/claulis/flutter/blob/main/dart/README.md)
-- [Próximo capítulo](../capitulos/variaveis-constantes.md)
+
+- [Sumário](/dart/README.md)
+- [Próximo capítulo](/dart/capitulos/variaveis-constantes.md)
