@@ -48,9 +48,4 @@ Widgets personalizados: Criação de widgets reutilizáveis e modularização.
 Integração com plataforma: Acessando recursos nativos (câmera, localização) com pacotes básicos.
 Testes: Introdução a testes unitários e de widgets com o pacote test.
 
-6. Publicação e Boas Práticas
 
-Preparação para publicação: Configuração de ícones, splash screen, build para Android e iOS.
-Boas práticas: Estruturação de código, separação de camadas (UI, lógica, dados).
-Otimização: Performance, redução de rebuilds desnecessários e debugging.
-Publicação na loja: Visão geral do processo para Google Play e App Store.
