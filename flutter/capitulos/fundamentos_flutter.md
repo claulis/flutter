@@ -323,7 +323,7 @@ Este é um ótimo ponto de partida para aprender Flutter\! Vamos quebrar tudo em
 
 ## Entendendo Widgets e seu Ciclo de Vida
 
-Pense em Widgets como **blocos de LEGO** para construir a interface do seu aplicativo. Em Flutter, a regra de ouro é: **"Tudo é um Widget"**.
+Pense em Widgets como **blocos de LEGO** para construir a interface do seu aplicativo. Em Flutter **"Tudo é um Widget"**.
 
   * Um botão? É um `Widget`.
   * Um texto? É um `Widget`.
