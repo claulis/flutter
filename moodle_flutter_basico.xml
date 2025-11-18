@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+  <question type="category">
+    <category>
+      <text>$course$/flutter basico</text>
+    </category>
+  </question>
+
+  <question type="multichoice">
+    <name><text>O que é Flutter?</text></name>
+    <questiontext format="html">
+      <text><![CDATA[De acordo com os materiais fornecidos, o que melhor descreve o Flutter?]]></text>
+    </questiontext>
+    <general><text></text></general>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abcde</answernumbering>
+    <answer fraction="100"><text>Um framework de código aberto para criar apps multiplataforma</text></answer>
+    <answer fraction="0"><text>Uma linguagem de programação para servidores</text></answer>
+    <answer fraction="0"><text>Uma biblioteca de componentes nativos do iOS</text></answer>
+    <answer fraction="0"><text>Um serviço de backend gerenciado pelo Google</text></answer>
+    <answer fraction="0"><text>Um compilador para C++ focado em UI</text></answer>
+  </question>
+
+  <question type="multichoice">
+    <name><text>Pilares da arquitetura Flutter</text></name>
+    <questiontext format="html">
+      <text><![CDATA[Quais são os três pilares principais da arquitetura do Flutter mencionados no material?]]></text>
+    </questiontext>
+    <general><text></text></general>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abcde</answernumbering>
+    <answer fraction="100"><text>Framework, widgets e rendering engine</text></answer>
+    <answer fraction="0"><text>SDK, NDK e JIT</text></answer>
+    <answer fraction="0"><text>Material, Cupertino e Foundation</text></answer>
+    <answer fraction="0"><text>Dart, Skia e Java</text></answer>
+    <answer fraction="0"><text>AppBar, Scaffold e Theme</text></answer>
+  </question>
+
+  <question type="multichoice">
+    <name><text>Hot Reload</text></name>
+    <questiontext format="html">
+      <text><![CDATA[O que faz o recurso "Hot Reload" no desenvolvimento com Flutter?]]></text>
+    </questiontext>
+    <general><text></text></general>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abcde</answernumbering>
+    <answer fraction="100"><text>Permite ver alterações no código em tempo real sem reiniciar totalmente o app</text></answer>
+    <answer fraction="0"><text>Compila automaticamente o app para release</text></answer>
+    <answer fraction="0"><text>Substitui o mecanismo de renderização por outro mais rápido</text></answer>
+    <answer fraction="0"><text>Gera automaticamente testes unitários</text></answer>
+    <answer fraction="0"><text>Atualiza o pubspec.yaml com dependências faltantes</text></answer>
+  </question>
+
+  <question type="multichoice">
+    <name><text>Engine de renderização</text></name>
+    <questiontext format="html">
+      <text><![CDATA[Qual engine gráfica o Flutter utiliza para renderizar a interface, conforme o material?]]></text>
+    </questiontext>
+    <general><text></text></general>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abcde</answernumbering>
+    <answer fraction="100"><text>Skia</text></answer>
+    <answer fraction="0"><text>OpenGL ES exclusivamente</text></answer>
+    <answer fraction="0"><text>UIKit</text></answer>
+    <answer fraction="0"><text>Vulkan (somente)</text></answer>
+    <answer fraction="0"><text>DirectX</text></answer>
+  </question>
+
+  <question type="multichoice">
+    <name><text>StatelessWidget vs StatefulWidget</text></name>
+    <questiontext format="html">
+      <text><![CDATA[Qual a principal diferença entre um StatelessWidget e um StatefulWidget?]]></text>
+    </questiontext>
+    <general><text></text></general>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abcde</answernumbering>
+    <answer fraction="100"><text>StatelessWidget é imutável; StatefulWidget possui um objeto State que pode mudar</text></answer>
+    <answer fraction="0"><text>StatelessWidget só funciona em Android e StatefulWidget só em iOS</text></answer>
+    <answer fraction="0"><text>StatefulWidget não possui método build()</text></answer>
+    <answer fraction="0"><text>StatelessWidget usa Dart e StatefulWidget usa Java</text></answer>
+    <answer fraction="0"><text>Não há diferença; são sinônimos</text></answer>
+  </question>
+
+  <question type="multichoice">
+    <name><text>Local do main.dart</text></name>
+    <questiontext format="html">
+      <text><![CDATA[Em um projeto Flutter criado com o comando padrão, onde normalmente fica o arquivo main.dart?]]></text>
+    </questiontext>
+    <general><text></text></general>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abcde</answernumbering>
+    <answer fraction="100"><text>No diretório lib/ (lib/main.dart)</text></answer>
+    <answer fraction="0"><text>No diretório android/</text></answer>
+    <answer fraction="0"><text>No diretório ios/Runner</text></answer>
+    <answer fraction="0"><text>No diretório assets/</text></answer>
+    <answer fraction="0"><text>Na raiz do SDK Flutter</text></answer>
+  </question>
+
+  <question type="multichoice">
+    <name><text>Função do pubspec.yaml</text></name>
+    <questiontext format="html">
+      <text><![CDATA[Qual a principal função do arquivo pubspec.yaml em um projeto Flutter?]]></text>
+    </questiontext>
+    <general><text></text></general>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abcde</answernumbering>
+    <answer fraction="100"><text>Declarar metadados, dependências e recursos do projeto</text></answer>
+    <answer fraction="0"><text>Conter o código-fonte Dart principal do app</text></answer>
+    <answer fraction="0"><text>Configurar o emulador Android</text></answer>
+    <answer fraction="0"><text>Gerar o binário de release automaticamente</text></answer>
+    <answer fraction="0"><text>Servir como arquivo de layout da UI</text></answer>
+  </question>
+
+  <question type="multichoice">
+    <name><text>Row organiza</text></name>
+    <questiontext format="html">
+      <text><![CDATA[O widget Row organiza seus filhos em qual direção?]]></text>
+    </questiontext>
+    <general><text></text></general>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abcde</answernumbering>
+    <answer fraction="100"><text>Horizontal</text></answer>
+    <answer fraction="0"><text>Vertical</text></answer>
+    <answer fraction="0"><text>Em grade (grid)</text></answer>
+    <answer fraction="0"><text>Em pilha sobreposta (stack)</text></answer>
+    <answer fraction="0"><text>Em lista rolável por padrão</text></answer>
+  </question>
+
+  <question type="multichoice">
+    <name><text>Uso do Positioned</text></name>
+    <questiontext format="html">
+      <text><![CDATA[O widget Positioned deve ser usado como filho direto de qual widget para funcionar corretamente?]]></text>
+    </questiontext>
+    <general><text></text></general>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abcde</answernumbering>
+    <answer fraction="100"><text>Stack</text></answer>
+    <answer fraction="0"><text>Column</text></answer>
+    <answer fraction="0"><text>Row</text></answer>
+    <answer fraction="0"><text>ListView</text></answer>
+    <answer fraction="0"><text>Scaffold</text></answer>
+  </question>
+
+  <question type="multichoice">
+    <name><text>Atualizar estado em StatefulWidget</text></name>
+    <questiontext format="html">
+      <text><![CDATA[Em um StatefulWidget, qual método é usado para notificar o Flutter que o estado mudou e que a interface deve ser reconstruída?]]></text>
+    </questiontext>
+    <general><text></text></general>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abcde</answernumbering>
+    <answer fraction="100"><text>setState()</text></answer>
+    <answer fraction="0"><text>notifyListeners()</text></answer>
+    <answer fraction="0"><text>rebuild()</text></answer>
+    <answer fraction="0"><text>refreshUI()</text></answer>
+    <answer fraction="0"><text>updateState()</text></answer>
+  </question>
+
+  <question type="truefalse">
+    <name><text>Tudo é Widget</text></name>
+    <questiontext format="html">
+      <text><![CDATA[No Flutter, tudo na interface de usuário é representado por widgets.]]></text>
+    </questiontext>
+    <defaultgrade>1</defaultgrade>
+    <answer fraction="100"><text>True</text></answer>
+    <answer fraction="0"><text>False</text></answer>
+  </question>
+
+  <question type="truefalse">
+    <name><text>Skia é a engine de renderização</text></name>
+    <questiontext format="html">
+      <text><![CDATA[O Flutter usa a engine gráfica Skia para renderizar a interface na tela.]]></text>
+    </questiontext>
+    <defaultgrade>1</defaultgrade>
+    <answer fraction="100"><text>True</text></answer>
+    <answer fraction="0"><text>False</text></answer>
+  </question>
+
+  <question type="truefalse">
+    <name><text>pubspec declara dependências</text></name>
+    <questiontext format="html">
+      <text><![CDATA[O arquivo pubspec.yaml é utilizado para declarar dependências e recursos do projeto Flutter.]]></text>
+    </questiontext>
+    <defaultgrade>1</defaultgrade>
+    <answer fraction="100"><text>True</text></answer>
+    <answer fraction="0"><text>False</text></answer>
+  </question>
+
+  <question type="truefalse">
+    <name><text>StatefulWidget não possui initState</text></name>
+    <questiontext format="html">
+      <text><![CDATA[Um StatefulWidget não possui o método initState() no ciclo de vida do seu State.]]></text>
+    </questiontext>
+    <defaultgrade>1</defaultgrade>
+    <answer fraction="0"><text>True</text></answer>
+    <answer fraction="100"><text>False</text></answer>
+  </question>
+
+  <question type="truefalse">
+    <name><text>Provider é atualizado com setState</text></name>
+    <questiontext format="html">
+      <text><![CDATA[Para atualizar o estado gerenciado por um Provider, deve-se normalmente usar setState() no lugar de notifyListeners().]]></text>
+    </questiontext>
+    <defaultgrade>1</defaultgrade>
+    <answer fraction="0"><text>True</text></answer>
+    <answer fraction="100"><text>False</text></answer>
+  </question>
+
+</quiz>
