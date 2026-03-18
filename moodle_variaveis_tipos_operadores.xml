@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+    <question type="multichoice">
+        <name>
+            <text>Qual é o tipo de dado que pode armazenar texto?</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[Qual é o tipo de dado que pode armazenar texto?]]></text>
+        </questiontext>
+        <answer fraction="100">
+            <text>String</text>
+            <feedback>
+                <text><![CDATA[Correto! String é utilizado para armazenar texto.]]></text>
+            </feedback>
+        </answer>
+        <answer fraction="0">
+            <text>Integer</text>
+            <feedback>
+                <text><![CDATA[Incorreto. Integer é usado para armazenar números inteiros.]]></text>
+            </feedback>
+        </answer>
+        <answer fraction="0">
+            <text>Boolean</text>
+            <feedback>
+                <text><![CDATA[Incorreto. Boolean armazena valores verdadeiros ou falsos.]]></text>
+            </feedback>
+        </answer>
+        <answer fraction="0">
+            <text>Float</text>
+            <feedback>
+                <text><![CDATA[Incorreto. Float é utilizado para números decimais.]]></text>
+            </feedback>
+        </answer>
+    </question>
+    <question type="multichoice">
+        <name>
+            <text>Qual operador é usado para igualdade em programação?</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[Qual operador é usado para igualdade em programação?]]></text>
+        </questiontext>
+        <answer fraction="100">
+            <text>==</text>
+            <feedback>
+                <text><![CDATA[Correto! O operador == é usado para igualdade.]]></text>
+            </feedback>
+        </answer>
+        <answer fraction="0">
+            <text>=</text>
+            <feedback>
+                <text><![CDATA[Incorreto. = é usado para atribuição.]]></text>
+            </feedback>
+        </answer>
+        <answer fraction="0">
+            <text>!=</text>
+            <feedback>
+                <text><![CDATA[Incorreto. != é usado para desigualdade.]]></text>
+            </feedback>
+        </answer>
+        <answer fraction="0">
+            <text>&&</text>
+            <feedback>
+                <text><![CDATA[Incorreto. && é usado para operações lógicas 'E'.]]></text>
+            </feedback>
+        </answer>
+    </question>
+</quiz>
