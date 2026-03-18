@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+  <question type="multichoice">
+    <name>
+      <text>Qual é a diferença entre 'final' e 'const' em Dart?</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[Qual é a diferença entre 'final' e 'const' em Dart?]]></text>
+    </questiontext>
+    <answer fraction="0">
+      <text>A) final pode mudar de tipo, const não</text>
+    </answer>
+    <answer fraction="100">
+      <text>B) final é atribuído em tempo de execução, const em tempo de compilação</text>
+    </answer>
+    <answer fraction="0">
+      <text>C) const é melhor que final</text>
+    </answer>
+    <answer fraction="0">
+      <text>D) Não há diferença</text>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Qual é o operador Cascade (..) utilizado para?</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[Qual é o operador Cascade (..) utilizado para?]]></text>
+    </questiontext>
+    <answer fraction="0">
+      <text>A) Operações matemáticas</text>
+    </answer>
+    <answer fraction="100">
+      <text>B) Realizar múltiplas operações em um mesmo objeto sem referenciá-lo várias vezes</text>
+    </answer>
+    <answer fraction="0">
+      <text>C) Comparação de valores</text>
+    </answer>
+    <answer fraction="0">
+      <text>D) Conversão de tipos</text>
+    </answer>
+  </question>
+</quiz>
