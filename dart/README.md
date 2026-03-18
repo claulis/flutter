@@ -48,9 +48,6 @@ Material didático completo para aprendizado da linguagem Dart.
 
 - Criação projeto Console básico
 - Execução
-
-### [Dart CLI](../dart/capitulos/primeiro-programa.md)
-
 - Estrutura básica de um programa Dart
 - Hello World
 - Execução do programa
