@@ -21,7 +21,7 @@ Explore os módulos abaixo para mergulhar no conteúdo.
 
 ## Instalação
 
-Para configurar seu ambiente de desenvolvimento, siga as instruções abaixo. Focaremos na instalação para **Windows** utilizando **Visual Studio Code (VS Code)** como editor principal, que é leve e eficiente para Flutter. No entanto, o **Android Studio** é essencial para configurar o Android toolchain, emuladores e SDKs necessários para testar apps mobile. Essas etapas são baseadas na documentação oficial do Flutter e garantem uma configuração robusta.
+Para configurar seu ambiente de desenvolvimento, siga as instruções abaixo. Focaremos na instalação para **Windows** utilizando **Visual Studio Code (VS Code)** como editor principal, que é leve e eficiente para Flutter. No entanto, o **Android Studio** é essencial para configurar o Android toolchain, emuladores e SDKs necessários para testar apps mobile. Essas etapas são baseadas na documentação oficial do Flutter e garantem uma configuração robusta. Se preferir um passo a passo visual, você também pode acompanhar este [Tutorial em vídeo](https://drive.google.com/file/d/17u43WvunTf-UXI4e0p4wvd9OlYAtndba/view?usp=drive_link)
 
 ### Passo a Passo para Instalação no Windows com VS Code e Android Studio
 
@@ -111,6 +111,3 @@ Para configurar seu ambiente de desenvolvimento, siga as instruções abaixo. Fo
 
 - **[Flutter: Construindo Apps Mobile](https://github.com/claulis/flutter/blob/main/flutter/README.md)**  
   Aprenda widgets, gerenciamento de estado, navegação e integrações com APIs.
-
-
-
