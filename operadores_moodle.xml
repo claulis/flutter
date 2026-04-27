@@ -2,87 +2,57 @@
 <quiz>
     <question type="multichoice">
         <name>
-            <text>Qual operador é usado para a adição em Dart?</text>
+            <text>Qual será o resultado da seguinte sequência de operações em Dart?</text>
         </name>
         <questiontext format="html">
-            <text><![CDATA[Qual operador é usado para a adição em Dart?]]></text>
+            <text><![CDATA[Qual será o resultado de x após as seguintes operações?<br/>int x = 10;<br/>x += 5;<br/>x -= 3;<br/>x *= 2;]]></text>
         </questiontext>
-        <generalfeedback format="html">
-            <text><![CDATA[O operador de adição é '+'.]]></text>
-        </generalfeedback>
         <defaultgrade>1</defaultgrade>
-        <penalty>0.1</penalty>
+        <penalty>0.3333333</penalty>
         <answers>
             <answer format="html">
-                <text><![CDATA[+]]></text>
+                <text>24</text>
                 <fraction>100</fraction>
-                <feedback format="html">
-                    <text><![CDATA[Correto!]]></text>
-                </feedback>
             </answer>
             <answer format="html">
-                <text><![CDATA[-]]></text>
+                <text>20</text>
                 <fraction>0</fraction>
-                <feedback format="html">
-                    <text><![CDATA[Incorreto!]]></text>
-                </feedback>
             </answer>
             <answer format="html">
-                <text><![CDATA[*]]></text>
+                <text>34</text>
                 <fraction>0</fraction>
-                <feedback format="html">
-                    <text><![CDATA[Incorreto!]]></text>
-                </feedback>
             </answer>
             <answer format="html">
-                <text><![CDATA[/]]></text>
+                <text>30</text>
                 <fraction>0</fraction>
-                <feedback format="html">
-                    <text><![CDATA[Incorreto!]]></text>
-                </feedback>
             </answer>
         </answers>
     </question>
     <question type="multichoice">
         <name>
-            <text>Qual operador é utilizado para a multiplicação em Dart?</text>
+            <text>Qual é o resultado da operação AND bitwise em Dart?</text>
         </name>
         <questiontext format="html">
-            <text><![CDATA[Qual operador é utilizado para a multiplicação em Dart?]]></text>
+            <text><![CDATA[Qual será o resultado de 'resultado' após esta operação?<br/>int a = 5;<br/>int b = 3;<br/>int resultado = a & b;]]></text>
         </questiontext>
-        <generalfeedback format="html">
-            <text><![CDATA[O operador de multiplicação é '*'.]]></text>
-        </generalfeedback>
         <defaultgrade>1</defaultgrade>
-        <penalty>0.1</penalty>
+        <penalty>0.3333333</penalty>
         <answers>
             <answer format="html">
-                <text><![CDATA[*]]></text>
+                <text>1</text>
                 <fraction>100</fraction>
-                <feedback format="html">
-                    <text><![CDATA[Correto!]]></text>
-                </feedback>
             </answer>
             <answer format="html">
-                <text><![CDATA[+]]></text>
+                <text>7</text>
                 <fraction>0</fraction>
-                <feedback format="html">
-                    <text><![CDATA[Incorreto!]]></text>
-                </feedback>
             </answer>
             <answer format="html">
-                <text><![CDATA[-]]></text>
+                <text>6</text>
                 <fraction>0</fraction>
-                <feedback format="html">
-                    <text><![CDATA[Incorreto!]]></text>
-                </feedback>
             </answer>
             <answer format="html">
-                <text><![CDATA[/]]></text>
+                <text>8</text>
                 <fraction>0</fraction>
-                <feedback format="html">
-                    <text><![CDATA[Incorreto!]]></text>
-                </feedback>
             </answer>
         </answers>
     </question>
