@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+    <question type="multichoice">
+        <name>
+            <text>Qual operador é usado para a adição em Dart?</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[Qual operador é usado para a adição em Dart?]]></text>
+        </questiontext>
+        <generalfeedback format="html">
+            <text><![CDATA[O operador de adição é '+'.]]></text>
+        </generalfeedback>
+        <defaultgrade>1</defaultgrade>
+        <penalty>0.1</penalty>
+        <answers>
+            <answer format="html">
+                <text><![CDATA[+]]></text>
+                <fraction>100</fraction>
+                <feedback format="html">
+                    <text><![CDATA[Correto!]]></text>
+                </feedback>
+            </answer>
+            <answer format="html">
+                <text><![CDATA[-]]></text>
+                <fraction>0</fraction>
+                <feedback format="html">
+                    <text><![CDATA[Incorreto!]]></text>
+                </feedback>
+            </answer>
+            <answer format="html">
+                <text><![CDATA[*]]></text>
+                <fraction>0</fraction>
+                <feedback format="html">
+                    <text><![CDATA[Incorreto!]]></text>
+                </feedback>
+            </answer>
+            <answer format="html">
+                <text><![CDATA[/]]></text>
+                <fraction>0</fraction>
+                <feedback format="html">
+                    <text><![CDATA[Incorreto!]]></text>
+                </feedback>
+            </answer>
+        </answers>
+    </question>
+    <question type="multichoice">
+        <name>
+            <text>Qual operador é utilizado para a multiplicação em Dart?</text>
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[Qual operador é utilizado para a multiplicação em Dart?]]></text>
+        </questiontext>
+        <generalfeedback format="html">
+            <text><![CDATA[O operador de multiplicação é '*'.]]></text>
+        </generalfeedback>
+        <defaultgrade>1</defaultgrade>
+        <penalty>0.1</penalty>
+        <answers>
+            <answer format="html">
+                <text><![CDATA[*]]></text>
+                <fraction>100</fraction>
+                <feedback format="html">
+                    <text><![CDATA[Correto!]]></text>
+                </feedback>
+            </answer>
+            <answer format="html">
+                <text><![CDATA[+]]></text>
+                <fraction>0</fraction>
+                <feedback format="html">
+                    <text><![CDATA[Incorreto!]]></text>
+                </feedback>
+            </answer>
+            <answer format="html">
+                <text><![CDATA[-]]></text>
+                <fraction>0</fraction>
+                <feedback format="html">
+                    <text><![CDATA[Incorreto!]]></text>
+                </feedback>
+            </answer>
+            <answer format="html">
+                <text><![CDATA[/]]></text>
+                <fraction>0</fraction>
+                <feedback format="html">
+                    <text><![CDATA[Incorreto!]]></text>
+                </feedback>
+            </answer>
+        </answers>
+    </question>
+</quiz>
