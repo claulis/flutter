@@ -28,7 +28,7 @@ Material didático completo para aprendizado de Flutter.
 [Single-Child](../flutter/capitulos/single_child_wid.md), [Multi-Child](../flutter/capitulos/multi_child_wid.md)
 [Navegação](../flutter/capitulos/nav_layout_wid.md): Navigator, rotas nomeadas, passagem de dados entre telas.
 [Posição](../flutter/capitulos/position_wid.md)
-[Estilização](../flutter/capitulos/style_layout_wid.md): Temas, cores, fontes, personalização de widgets com ThemeData.
+[Estilização](../flutter/capitulos/style_layout_wid.md): Temas, cores, fontes, personalização de widgets com ThemeData. Exemplo completo
 
 ### 4. Gerenciamento de Estado
 
