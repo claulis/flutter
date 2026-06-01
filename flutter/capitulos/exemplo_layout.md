@@ -1,86 +1,8 @@
-# 🐦 Flutter no Windows com VSCode — Passo a Passo Completo
+# 🐦 Flutter Layout Passo a Passo Completo
 
 > App de exemplo: formulário com **nome** e **idade** (Slider) → navegação para tela de resultado.
 
----
-
-## 📋 Pré-requisitos
-
-| Ferramenta | Versão mínima | Download |
-|---|---|---|
-| Windows | 10 (64-bit) | — |
-| Git | qualquer | https://git-scm.com |
-| VS Code | qualquer | https://code.visualstudio.com |
-| Flutter SDK | 3.x | https://flutter.dev/docs/get-started/install/windows |
-
----
-
-## 1️⃣ Instalar o Flutter SDK
-
-### 1.1 Baixar e extrair
-
-1. Acesse **https://flutter.dev/docs/get-started/install/windows**
-2. Baixe o arquivo `.zip` do Flutter estável (ex: `flutter_windows_3.x.x-stable.zip`)
-3. Extraia para uma pasta **sem espaço e sem caractere especial**, por exemplo:
-   ```
-   C:\src\flutter
-   ```
-   > ⚠️ **Não** coloque em `C:\Program Files\` nem em `%USERPROFILE%` (tem espaço)
-
-### 1.2 Adicionar Flutter ao PATH
-
-1. Abra o menu Iniciar → pesquise **"variáveis de ambiente"**
-2. Clique em **"Editar as variáveis de ambiente do sistema"**
-3. Em **"Variáveis de usuário"**, selecione `Path` → **Editar**
-4. Clique **Novo** e adicione:
-   ```
-   C:\src\flutter\bin
-   ```
-5. Clique **OK** em todas as janelas
-
-### 1.3 Verificar instalação
-
-Abra um **novo** terminal (PowerShell ou CMD) e execute:
-```powershell
-flutter doctor
-```
-
-Saída esperada (as marcas ✓ mostram o que está OK):
-```
-Doctor summary (to see all details, run flutter doctor -v):
-[✓] Flutter (Channel stable, 3.x.x)
-[✓] Windows Version
-[✓] Android toolchain - develop for Android devices
-[✓] Chrome - develop for the web
-[✓] Visual Studio - develop Windows apps
-[✓] VS Code (version x.x.x)
-[!] Android Studio (not installed)  ← opcional
-```
-
-> 💡 Os itens com `[!]` são avisos, não erros — o app web/Windows funciona mesmo sem Android Studio.
-
----
-
-## 2️⃣ Instalar extensões no VS Code
-
-Abra o VS Code e instale:
-
-1. **Flutter** (Dart Code) — pressione `Ctrl+Shift+X`, busque `Flutter`, instale
-2. **Dart** — normalmente instalada junto com Flutter
-
-Após instalar, **reinicie o VS Code**.
-
----
-
-## 3️⃣ Habilitar Flutter para Web (opcional, mas recomendado)
-
-```powershell
-flutter config --enable-web
-```
-
----
-
-## 4️⃣ Estrutura do projeto
+## 1. Estrutura do projeto
 
 ```
 flutter_demo/
@@ -95,9 +17,7 @@ flutter_demo/
 
 ---
 
-## 5️⃣ Criar o projeto
-
-### Opção A — Criar do zero e substituir arquivos
+## 2. Criar o projeto
 
 ```powershell
 # Navegue até onde quer criar o projeto
@@ -112,18 +32,11 @@ cd flutter_demo
 
 Depois substitua o conteúdo de `lib/main.dart` e crie os demais arquivos conforme as seções **Código** abaixo.
 
-### Opção B — Clonar este repositório (se disponível)
-
-```powershell
-git clone <URL-do-repo> flutter_demo
-cd flutter_demo
-flutter pub get
-```
-
 ---
 
-## 6️⃣ Código completo
+## 3. Código completo
 
+Crie o arquivo `pubspec.yaml` na pasta raiz do projeto, copie e cole o código abaixo
 ### `pubspec.yaml`
 ```yaml
 name: flutter_demo
@@ -150,6 +63,7 @@ flutter:
 
 ---
 
+Na pasta /lib crie os arquivos com os nome indicados e copie-cole o código a seguir
 ### `lib/main.dart`
 ```dart
 import 'package:flutter/material.dart';
@@ -438,7 +352,7 @@ class _InfoRow extends StatelessWidget {
 
 ---
 
-## 7️⃣ Instalar dependências
+## 4. Instalar dependências
 
 No terminal dentro da pasta do projeto:
 ```powershell
@@ -447,7 +361,7 @@ flutter pub get
 
 ---
 
-## 8️⃣ Rodar o app
+## 5. Rodar o app
 
 ### Escolher o dispositivo no VS Code
 
@@ -479,7 +393,7 @@ flutter devices
 
 ---
 
-## 9️⃣ Hot Reload e Hot Restart
+## 6. Hot Reload e Hot Restart
 
 | Ação | Tecla (VS Code) | Terminal | O que faz |
 |---|---|---|---|
@@ -491,7 +405,7 @@ flutter devices
 
 ---
 
-## 🧪 10. Rodar os testes
+## 7. Rodar os testes
 
 ```powershell
 # Rodar todos os testes
@@ -511,7 +425,7 @@ Saída esperada:
 
 ---
 
-## 🔨 11. Gerar o build
+## 8. Gerar o build
 
 ```powershell
 # Build para Windows (gera .exe)
@@ -531,7 +445,7 @@ build\windows\x64\runner\Release\flutter_demo.exe
 
 ---
 
-## 🧩 Conceitos Flutter usados neste projeto
+## 9. Conceitos Flutter usados neste projeto
 
 | Conceito | Onde aparece | Para que serve |
 |---|---|---|
@@ -549,7 +463,7 @@ build\windows\x64\runner\Release\flutter_demo.exe
 
 ---
 
-## 🐛 Problemas comuns
+## 10. Problemas comuns
 
 | Erro | Solução |
 |---|---|
@@ -561,7 +475,7 @@ build\windows\x64\runner\Release\flutter_demo.exe
 
 ---
 
-## 📁 Estrutura de arquivos gerada pelo `flutter create`
+## 11. Estrutura de arquivos gerada pelo `flutter create`
 
 ```
 flutter_demo/
